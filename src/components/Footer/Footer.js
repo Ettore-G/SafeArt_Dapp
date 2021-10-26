@@ -35,22 +35,25 @@ class Footer extends Component {
                                 <div className="footer-items">
                                     {/* Logo */}
                                     <a className="navbar-brand" href="/">
-                                        <img src="img/pp-removebg-preview.png" className="img-fluid footer-icon" alt="" />
+                                        <img src="img/pp-removebg-preview.png" className="img-fluid ml-4 footer-icon" alt="logo" />
                                     </a>
-                                    <p>SafeArt</p>
                                     {/* Social Icons */}
-                                    <div className="social-icons d-flex">
-                                        <a key="1" className="Discord" href="#">
+                                    <div className="social-icons d-flex py-4">
+                                        <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD">
                                             <i className="fab fa-discord" />
                                             <i className="fab fa-discord" />
                                         </a>
-                                        <a key="1" className="Discord" href="#">
+                                        <a key="1" className="Discord" href="https://twitter.com/Safee_Art">
                                             <i className="fab fa-twitter" />
                                             <i className="fab fa-twitter" />
                                         </a>
-                                        <a key="1" className="Discord" href="#">
+                                        <a key="1" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk">
                                             <i className="fab fa-telegram" />
                                             <i className="fab fa-telegram" />
+                                        </a>
+                                        <a key="1" className="Discord" href="https://www.reddit.com/r/SafeArt/">
+                                            <i class="fab fa-reddit-alien"></i>
+                                            <i class="fab fa-reddit-alien"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -63,7 +66,7 @@ class Footer extends Component {
                                     <ul>
                                         <li key="1"><a href="/">Home</a></li>
                                         <li key="2"><a href="/roadmap">Roadmap</a></li>
-                                        <li key="3"><a href="explore-3">NFT</a></li>
+                                        <li key="3"><a href="/explore-3">NFT</a></li>
                                         <li key="4"><a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true">Whitepaper</a></li>
                                         <li key="5"><a href="/contact">Contact</a></li>
                                     </ul>

@@ -1,6 +1,5 @@
 import React from 'react';
 import WalletCard from '../../WalletCard';
-import WalletCardEthers from '../../WalletCardEthers';
 
 const Header = () => {
     return (
@@ -18,13 +17,6 @@ const Header = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="/">Home</a>
                         </li>
-                        {/* <li className="nav-item dropdown">
-                            <a className="nav-link" href="#">Explore <i className="fas fa-angle-down ml-1" /></a>
-                            <ul className="dropdown-menu">
-                                <li className="nav-item"><a href="/explore-1" className="nav-link">SafeArt</a></li>
-                                <li className="nav-item"><a href="/explore-2" className="nav-link">...</a></li>
-                            </ul>
-                        </li> */}
                         <li className="nav-item">
                             <a href="/roadmap" className="nav-link">Roadmap</a>
                         </li>
@@ -45,14 +37,6 @@ const Header = () => {
                             <a href="/contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
-                    {/* Navbar Icons */}
-                    {/* <ul className="navbar-nav icons">
-                        <li className="nav-item">
-                            <a href="#" className="nav-link" data-toggle="modal" data-target="#search">
-                                <i className="fas fa-search" />
-                            </a>
-                        </li>
-                    </ul> */}
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">
                         <li className="nav-item">

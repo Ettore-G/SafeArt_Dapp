@@ -144,7 +144,7 @@ class ExploreOne extends Component {
                                     <p>{this.state.initData.text}</p>
                                 </div>
                                 <div className="intro-btn">
-                                    <a className="btn content-btn" href="/explore-3">{this.state.initData.btn_1}</a>
+                                    <a className="btn content-btn" href="/roadmap">{this.state.initData.btn_1}</a>
                                 </div>
                             </div>
                         </div>

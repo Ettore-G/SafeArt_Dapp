@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import WalletCard from '../../WalletCard';
 
 const initData = {
     // pre_heading: "SafeArt",
     heading: "SafeArt",
     content: "MINTED: ?? / ??",
     description: "mint - price: Gas + NFT price",
-    btn_1: "Wallet Connect",
-    btn_2: "Create"
+    // btn_1: "Wallet Connect",
+    // btn_2: "Create"
 }
 
 class Hero extends Component {
@@ -23,57 +24,57 @@ class Hero extends Component {
             <section id="hero" className="hero-section h-100 row align-items-center">
                 <div className="container-fluid">
                     <div  id="home"className="row align-items-center ">
-                        <div class="stars">
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
+                        <div className="stars">
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
                         </div>
                         <div className="col-12 col-md-6 main-text padding-left-homepage">
                             <span>{this.state.data.pre_heading}</span>
@@ -81,21 +82,21 @@ class Hero extends Component {
                             <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p>
                             {/* Buttons */}
-                            <div class="progress">
+                            <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ></div>
                             </div>
                             <div className="button-group">
-                                <a className="btn btn-bordered-white" href="/wallet-connect"><i className="icon-wallet mr-md-2" />{this.state.data.btn_1}</a>
+                                <WalletCard />
                             </div>
                         </div>
                         <div className="col-12 col-md-6 d-flex pad-right justify-content-center ">
-                            <div class="outer-circle">
-                                <div class="inner-circle">  
+                            <div className="outer-circle">
+                                <div className="inner-circle">  
                                     <img className="img-fluid no-filtro"  src="https://picsum.photos/400/400"></img>
                                 </div>
-                                <span class="rainbow-effect"></span>
-                                <span class="rainbow-effect"></span>
-                                <span class="rainbow-effect"></span>
+                                <span className="rainbow-effect"></span>
+                                <span className="rainbow-effect"></span>
+                                <span className="rainbow-effect"></span>
                             </div>
                         </div>
                     </div>

@@ -30,57 +30,57 @@ class Activity extends Component {
             <section className="activity-area load-more">
                 <div className="container">
                     <div className="row">
-                        <div class="stars">
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
+                        <div className="stars">
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
                         </div>
                         <div className="col-12">
                             {/* Intro */}
@@ -94,44 +94,44 @@ class Activity extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <section class="timeline-section">
-                                <div class="timeline-items">
-                                    <div class="timeline-item">
-                                        <div class="timeline-dot"></div>
-                                        <div class="timeline-date">2015</div>
-                                        <div class="timeline-content">
+                            <section className="timeline-section">
+                                <div className="timeline-items">
+                                    <div className="timeline-item">
+                                        <div className="timeline-dot"></div>
+                                        <div className="timeline-date">2015</div>
+                                        <div className="timeline-content">
                                             <h3>Q1 2022</h3>
                                             <p>Rilascio collezione nft + moneta. </p>
                                         </div>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="timeline-dot"></div>
-                                        <div class="timeline-date">2016</div>
-                                        <div class="timeline-content">
+                                    <div className="timeline-item">
+                                        <div className="timeline-dot"></div>
+                                        <div className="timeline-date">2016</div>
+                                        <div className="timeline-content">
                                             <h3>Q2 2020</h3>
                                             <p>Swrap </p>
                                         </div>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="timeline-dot"></div>
-                                        <div class="timeline-date">2017</div>
-                                        <div class="timeline-content">
+                                    <div className="timeline-item">
+                                        <div className="timeline-dot"></div>
+                                        <div className="timeline-date">2017</div>
+                                        <div className="timeline-content">
                                             <h3>Q4 2022</h3>
                                             <p>NFT game metaverse. </p>
                                         </div>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="timeline-dot"></div>
-                                        <div class="timeline-date">2018</div>
-                                        <div class="timeline-content">
+                                    <div className="timeline-item">
+                                        <div className="timeline-dot"></div>
+                                        <div className="timeline-date">2018</div>
+                                        <div className="timeline-content">
                                             <h3>Q1 2023</h3>
                                             <p>Trading NFT. </p>
                                         </div>
                                     </div>
-                                    <div class="timeline-item">
-                                        <div class="timeline-dot"></div>
-                                        <div class="timeline-date">2019</div>
-                                        <div class="timeline-content">
+                                    <div className="timeline-item">
+                                        <div className="timeline-dot"></div>
+                                        <div className="timeline-date">2019</div>
+                                        <div className="timeline-content">
                                             <h3>Q? 2024</h3>
                                             <p>Mainnet. </p>
                                         </div>
@@ -139,9 +139,6 @@ class Activity extends Component {
                                 </div>
                             </section>
                             </div>
-                    </div>
-                    <div className="row items">
-                    
                     </div>
                 </div>
             </section>

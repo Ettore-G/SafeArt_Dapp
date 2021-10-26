@@ -41,7 +41,7 @@ class Collections extends Component {
                                     <h1 className="mt-3 mb-0">Our Staff </h1>
                                 </div>
                                 <div className="intro-btn">
-                                    <a className="btn content-btn text-left" href="/explore-2">More</a>
+                                    <a className="btn content-btn text-left" href="/">More</a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ class Collections extends Component {
                                         <div className="card-caption col-12 p-0">
                                             {/* Card Body */}
                                             <div className="card-body mt-4">
-                                                <a href="/item-details">
+                                                <a href="/">
                                                     <h5 className="mb-2">{item.nome}</h5>
                                                 </a>
                                                 <span>{item.ruolo}</span>
