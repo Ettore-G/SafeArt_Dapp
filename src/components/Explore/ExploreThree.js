@@ -65,14 +65,14 @@ export const ResponsiveWrapper = styled.div`
   }
 `;
 
-export const StyledLogo = styled.img`
-  width: 200px;
-  @media (min-width: 767px) {
-    width: 300px;
-  }
-  transition: width 0.5s;
-  transition: height 0.5s;
-`;
+// export const StyledLogo = styled.img`
+//   width: 200px;
+//   @media (min-width: 767px) {
+//     width: 300px;
+//   }
+//   transition: width 0.5s;
+//   transition: height 0.5s;
+// `;
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
@@ -198,14 +198,14 @@ function ExploreThree() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 24, backgroundColor: "var(--yellow)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        {/* <StyledLogo alt={"logo"} src={"/config/images/logo.png"} /> */}
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/Safe.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -216,7 +216,7 @@ function ExploreThree() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "4px dashed var(--accent)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -373,7 +373,7 @@ function ExploreThree() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/Safe.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
