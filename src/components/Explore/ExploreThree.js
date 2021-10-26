@@ -65,14 +65,15 @@ export const ResponsiveWrapper = styled.div`
   }
 `;
 
-// export const StyledLogo = styled.img`
-//   width: 200px;
-//   @media (min-width: 767px) {
-//     width: 300px;
-//   }
-//   transition: width 0.5s;
-//   transition: height 0.5s;
-// `;
+export const StyledLogo = styled.img`
+  width: 200px;
+  padding-top: 50px;
+  @media (min-width: 767px) {
+    width: 300px;
+  }
+  transition: width 0.5s;
+  transition: height 0.5s;
+`;
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
@@ -201,7 +202,7 @@ function ExploreThree() {
         style={{ padding: 24, backgroundColor: "var(--yellow)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        {/* <StyledLogo alt={"logo"} src={"/config/images/logo.png"} /> */}
+        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>

@@ -60,7 +60,7 @@ const WalletCard = () => {
     <ul className="navbar-nav action">
         <li className="nav-item ml-3">
             {/* <a className="btn ml-lg-auto btn-bordered-white" onClick={connectWalletHandler}> {connButtonText} <i className="icon-wallet mr-md-2" /></a> */}
-            <a className="btn ml-lg-auto btn-bordered-white" href="/explore-3">
+            <a className="btn ml-lg-auto btn-bordered-white" href="/claim-your-NFT">
 				Claim your NFT
 				<i className=" m-3 icon-wallet mr-md-2" />
 			</a>

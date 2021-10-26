@@ -66,7 +66,7 @@ class Footer extends Component {
                                     <ul>
                                         <li key="1"><a href="/">Home</a></li>
                                         <li key="2"><a href="/roadmap">Roadmap</a></li>
-                                        <li key="3"><a href="/explore-3">NFT</a></li>
+                                        <li key="3"><a href="/claim-your-NFT">NFT</a></li>
                                         <li key="4"><a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true">Whitepaper</a></li>
                                         <li key="5"><a href="/contact">Contact</a></li>
                                     </ul>

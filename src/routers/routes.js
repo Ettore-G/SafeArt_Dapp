@@ -17,7 +17,7 @@ class MyRouts extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/" component={ThemeOne} />
-            <Route exact path="/explore-3" component={ExploreThree} />
+            <Route exact path="/claim-your-NFT" component={ExploreThree} />
             <Route exact path="/roadmap" component={Activity} />
             <Route exact path="/news" component={Blog} />
             <Route exact path="/blog-single" component={BlogSingle} />

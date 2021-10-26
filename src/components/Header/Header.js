@@ -21,7 +21,7 @@ const Header = () => {
                             <a href="/roadmap" className="nav-link">Roadmap</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/explore-3" className="nav-link">NFT</a>
+                            <a href="/claim-your-NFT" className="nav-link">NFT</a>
                         </li>
                         <li className="nav-item">
                             <a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" className="nav-link">Whitepaper</a>
