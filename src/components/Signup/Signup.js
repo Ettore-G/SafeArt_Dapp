@@ -69,7 +69,7 @@ class Signup extends Component {
                                         <div className="form-group mt-3">
                                             <div className="form-check form-check-inline">
                                                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" defaultValue="option1" />
-                                                <label className="form-check-label" htmlFor="inlineRadio1">I agree to <a href="#">Privacy Policy</a></label>
+                                                <label className="form-check-label" htmlFor="inlineRadio1">I agree to <a href="/">Privacy Policy</a></label>
                                             </div>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ class Signup extends Component {
                                         <button className="btn w-100 mt-3 mt-sm-4" type="submit">Sign Up</button>
                                     </div>
                                     <div className="col-12">
-                                        <span className="d-block text-center mt-4">Already have an account? <a href="/login">Login</a></span>
+                                        <span className="d-block text-center mt-4">Already have an account? <a href="/">Login</a></span>
                                     </div>
                                     <div className="col-12">
                                         <hr />
@@ -87,7 +87,7 @@ class Signup extends Component {
                                             <div className="social-icons d-flex justify-content-center">
                                                 {this.state.data.map((item, idx) => {
                                                     return (
-                                                        <a key={`lsd_${idx}`} className={item.link} href="#">
+                                                        <a key={`lsd_${idx}`} className={item.link} href="/">
                                                             <i className={item.icon} />
                                                             <i className={item.icon} />
                                                         </a>

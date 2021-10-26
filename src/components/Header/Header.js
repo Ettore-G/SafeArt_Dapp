@@ -24,10 +24,10 @@ const Header = () => {
                             <a href="/explore-3" className="nav-link">NFT</a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" target="_blank" className="nav-link">Whitepaper</a>
+                            <a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" className="nav-link">Whitepaper</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="#">Community <i className="fas fa-angle-down ml-1" /></a>
+                            <a className="nav-link" href="/">Community <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
                                 <li className="nav-item"><a href="/news" className="nav-link">News</a></li>
                                 <li className="nav-item"><a href="/" className="nav-link">Staff</a></li>
@@ -40,7 +40,7 @@ const Header = () => {
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">
                         <li className="nav-item">
-                            <a href="#" className="nav-link" data-toggle="modal" data-target="#menu">
+                            <a href="/" className="nav-link" data-toggle="modal" data-target="#menu">
                                 <i className="fas fa-bars toggle-icon m-0" />
                             </a>
                         </li>

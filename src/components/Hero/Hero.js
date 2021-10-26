@@ -92,7 +92,7 @@ class Hero extends Component {
                         <div className="col-12 col-md-6 d-flex pad-right justify-content-center ">
                             <div className="outer-circle">
                                 <div className="inner-circle">  
-                                    <img className="img-fluid no-filtro"  src="https://picsum.photos/400/400"></img>
+                                    <img className="img-fluid no-filtro"  src="https://picsum.photos/400/400" alt="bo"></img>
                                 </div>
                                 <span className="rainbow-effect"></span>
                                 <span className="rainbow-effect"></span>

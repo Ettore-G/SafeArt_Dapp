@@ -30,7 +30,7 @@ class Footer extends Component {
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-sm-6 col-lg-3 res-margin ">
+                            <div className="col-12 col-sm-6 col-lg-3 d-flex justify-content-center res-margin ">
                                 {/* Footer Items */}
                                 <div className="footer-items">
                                     {/* Logo */}
@@ -43,17 +43,17 @@ class Footer extends Component {
                                             <i className="fab fa-discord" />
                                             <i className="fab fa-discord" />
                                         </a>
-                                        <a key="1" className="Discord" href="https://twitter.com/Safee_Art">
+                                        <a key="2" className="Discord" href="https://twitter.com/Safee_Art">
                                             <i className="fab fa-twitter" />
                                             <i className="fab fa-twitter" />
                                         </a>
-                                        <a key="1" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk">
+                                        <a key="3" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk">
                                             <i className="fab fa-telegram" />
                                             <i className="fab fa-telegram" />
                                         </a>
-                                        <a key="1" className="Discord" href="https://www.reddit.com/r/SafeArt/">
-                                            <i class="fab fa-reddit-alien"></i>
-                                            <i class="fab fa-reddit-alien"></i>
+                                        <a key="4" className="Discord" href="https://www.reddit.com/r/SafeArt/">
+                                            <i className="fab fa-reddit-alien"></i>
+                                            <i className="fab fa-reddit-alien"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ class Footer extends Component {
                                     <h4 className="footer-title">{this.state.data.widget_2}</h4>
                                     <ul>
                                         <li key="1"><a href="/news">News</a></li>    
-                                        <li key="2"><a href="#">Staff</a></li>                                      
+                                        <li key="2"><a href="/">Staff</a></li>                                      
                                     </ul>
                                 </div>
                             </div>

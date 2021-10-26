@@ -29,7 +29,7 @@ class BlogSingle extends Component {
                                 <div className="col-12 align-self-center">
                                     {/* Image */}
                                     <div className="blog-thumb">
-                                        <img className="w-100" src={this.state.data.image} alt="" />
+                                        <img className="w-100" src={this.state.data.image} alt="boo" />
                                     </div>
                                     <h2 className="featured ml-0">{this.state.data.title}</h2>
                                     <p>{this.state.data.content_1}</p>
@@ -42,7 +42,7 @@ class BlogSingle extends Component {
                                     <ul className="mb-5 post-holder">
                                         <li className="post-meta-item">
                                             <div className="date">
-                                                <span className="posted-on">Posted On <a href="#" rel="bookmark"><time className="entry-date published updated" dateTime="2018-11-01T06:18:46+00:00">{this.state.data.date}</time></a></span>
+                                                <span className="posted-on">Posted On <a href="/" rel="bookmark"><time className="entry-date published updated" dateTime="2018-11-01T06:18:46+00:00">{this.state.data.date}</time></a></span>
                                             </div>
                                         </li>
                                     </ul>
@@ -65,7 +65,7 @@ class BlogSingle extends Component {
                                                 </div>
                                             </div>
                                             <div className="col-12 input-group p-0">
-                                                <a className="btn btn-bordered-white text-white">{this.state.data.commentBtn}<i className="icon-login ml-2" /></a>
+                                                <a href="/" className="btn btn-bordered-white text-white">{this.state.data.commentBtn}<i className="icon-login ml-2" /></a>
                                             </div>
                                         </fieldset>
                                     </form>

@@ -79,7 +79,7 @@ class Login extends Component {
                                             <div className="social-icons d-flex justify-content-center">
                                                 {this.state.data.map((item, idx) => {
                                                     return (
-                                                        <a key={`lsd_${idx}`} className={item.link} href="#">
+                                                        <a key={`lsd_${idx}`} className={item.link} href="/">
                                                             <i className={item.icon} />
                                                             <i className={item.icon} />
                                                         </a>

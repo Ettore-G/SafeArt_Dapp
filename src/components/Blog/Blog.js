@@ -29,22 +29,22 @@ class Blog extends Component {
                                     <div className="card blog-card">
                                         {/* Blog Thumb */}
                                         <div className="blog-thumb">
-                                            <a href="/blog-single"><img src={item.img} alt="" /></a>
+                                            <a href="/"><img src={item.img} alt="" /></a>
                                         </div>
                                         {/* Blog Content */}
                                         <div className="blog-content">
                                             {/* Meta Info */}
                                             <ul className="meta-info d-flex justify-content-between list-unstyled mt-4">
-                                                <li>By <a href="#">{item.author}</a></li>
-                                                <li><a href="#">{item.date}</a></li>
+                                                <li>By {item.author}</li>
+                                                <li>{item.date}</li>
                                             </ul>
                                             {/* Blog Title */}
-                                            <a href="/blog-single">
+                                            <a href="/">
                                                 <h4>{item.title}</h4>
                                             </a>
                                             <p>{item.content}</p>
                                             {/* Blog Button */}
-                                            <a className="btn content-btn" href="/blog-single">{item.btnText}</a>
+                                            <a className="btn content-btn" href="/">{item.btnText}</a>
                                         </div>
                                     </div>
                                 </div>
