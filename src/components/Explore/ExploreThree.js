@@ -10,22 +10,27 @@ const truncate = (input, len) =>
 
 export const StyledButton = styled.button`
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 100px;
   border: none;
-  background-color: var(--secondary);
+  background: none;
+  :hover {
+    background-image: linear-gradient(
+    135deg,
+    var(--primary-color) 10%,
+    var(--secondary-color)
+  )};  
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  border: 2px solid #fff;
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
   }
+;
 `;
 
 export const StyledRoundButton = styled.button`
@@ -54,6 +59,7 @@ export const StyledRoundButton = styled.button`
 
 export const ResponsiveWrapper = styled.div`
   display: flex;
+  margin-top: 100px;
   flex: 1;
   flex-direction: column;
   justify-content: stretched;
@@ -61,6 +67,7 @@ export const ResponsiveWrapper = styled.div`
   width: 100%;
   @media (min-width: 767px) {
     flex-direction: row;
+    margin-top: 50px;
   }
 `;
 
@@ -199,58 +206,58 @@ function ExploreThree() {
         flex={1}
         ai={"center"}
       >
-                                <div className="stars">
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                        </div>
+              <div className="stars">
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+          <div className="star"></div>
+      </div>
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
@@ -262,19 +269,16 @@ function ExploreThree() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--accent)",
-              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 50,
+                fontSize: 80,
                 fontWeight: "bold",
-                color: "var(--accent-text)",
+                color: "var(--white-color)",
               }}
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
@@ -286,19 +290,19 @@ function ExploreThree() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 20)}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--white-color)" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center", color: "var(--white-color)" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -310,14 +314,14 @@ function ExploreThree() {
             ) : (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center",fontSize: 45, color: "var(--white-color)" }}
                 >
                   1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center",fontSize: 20, color: "var(--white-color)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -328,7 +332,8 @@ function ExploreThree() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--white-color)",
+                        fontSize: 20,
                       }}
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
@@ -349,7 +354,7 @@ function ExploreThree() {
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--accent-text)",
+                            color: "var(--white-color)",
                           }}
                         >
                           {blockchain.errorMsg}
@@ -362,7 +367,7 @@ function ExploreThree() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--white-color)",
                       }}
                     >
                       {feedback}
@@ -383,7 +388,7 @@ function ExploreThree() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--accent-text)",
+                          color: "var(--white-color)",
                         }}
                       >
                         {mintAmount}
@@ -423,11 +428,11 @@ function ExploreThree() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "80%", marginBottom:40 }}>
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--primary-p-color)",
             }}
           >
             Please make sure you are connected to the right network (
@@ -438,7 +443,7 @@ function ExploreThree() {
           <s.TextDescription
             style={{
               textAlign: "center",
-              color: "var(--primary-text)",
+              color: "var(--primary-p-color)",
             }}
           >
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
