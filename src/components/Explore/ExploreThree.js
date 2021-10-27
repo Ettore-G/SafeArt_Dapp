@@ -32,7 +32,6 @@ export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: none;
-  background-color: var(--primary);
   padding: 10px;
   font-weight: bold;
   font-size: 15px;
@@ -196,17 +195,66 @@ function ExploreThree() {
 
   return (
     <s.Screen>
-      <s.Container
+    <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--yellow)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+                                <div className="stars">
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                            <div className="star"></div>
+                        </div>
+
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/Safe.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -372,11 +420,6 @@ function ExploreThree() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/Safe.png"}
-              style={{ transform: "scaleX(-1)" }}
-            />
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
