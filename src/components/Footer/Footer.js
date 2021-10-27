@@ -106,7 +106,7 @@ class Footer extends Component {
                                 {/* Copyright Area */}
                                 <div className="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
                                     {/* Copyright Left */}
-                                    <div className="copyright-left">©2021 SafeArt, All Rights Reserved.</div>
+                                    <div className="copyright-left ">©2021 SafeArt, All Rights Reserved.</div>
                                 </div>
                             </div>
                         </div>
