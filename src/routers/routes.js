@@ -21,8 +21,8 @@ class MyRouts extends React.Component {
             <Route exact path="/roadmap" component={Activity} />
             <Route exact path="/news" component={Blog} />
             <Route exact path="/blog-single" component={BlogSingle} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/signup" component={Signup} />
+            {/* <Route exact path="/login" component={Login} />
+            <Route exact path="/signup" component={Signup} /> */}
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </Router>
