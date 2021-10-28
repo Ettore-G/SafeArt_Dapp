@@ -4052,7 +4052,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   margin: 6px 0 15px;
 }
 .timeline-content {
-  background-color: #2f363e;
+  /* background-color: #2f363e; */
   padding: 30px;
   border-radius: 5px;
 }
