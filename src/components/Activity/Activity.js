@@ -98,7 +98,7 @@ class Activity extends Component {
                                 <div className="timeline-items">
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
-                                        <div className="timeline-date">2015</div>
+                                        <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q1 2022</h3>
                                             <p>Rilascio collezione nft + moneta. </p>
@@ -106,7 +106,7 @@ class Activity extends Component {
                                     </div>
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
-                                        <div className="timeline-date">2016</div>
+                                        <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q2 2020</h3>
                                             <p>Swrap </p>
@@ -114,7 +114,7 @@ class Activity extends Component {
                                     </div>
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
-                                        <div className="timeline-date">2017</div>
+                                        <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q4 2022</h3>
                                             <p>NFT game metaverse. </p>
@@ -122,7 +122,7 @@ class Activity extends Component {
                                     </div>
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
-                                        <div className="timeline-date">2018</div>
+                                        <div className="timeline-date">2023</div>
                                         <div className="timeline-content">
                                             <h3>Q1 2023</h3>
                                             <p>Trading NFT. </p>
@@ -130,7 +130,7 @@ class Activity extends Component {
                                     </div>
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
-                                        <div className="timeline-date">2019</div>
+                                        <div className="timeline-date">2024</div>
                                         <div className="timeline-content">
                                             <h3>Q? 2024</h3>
                                             <p>Mainnet. </p>

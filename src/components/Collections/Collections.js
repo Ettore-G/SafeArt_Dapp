@@ -13,14 +13,13 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "Andrea", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Domenico", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Ettore", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Antonio", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Federica", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Aysu", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Andrea", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Monica", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "BomberBax", ruolo : "Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Roos", ruolo : "Co-Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Monica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -30,7 +29,7 @@ class Collections extends Component {
     }
     render() {
         return (
-            <section className="popular-collections-area">
+            <section className="popular-collections-area" id="staff">
                 <div className="container">
                     <div id="staff"className="row">
                         <div className="col-12">
@@ -39,9 +38,6 @@ class Collections extends Component {
                                 <div className="intro-content">
                                     <span>Staff</span>
                                     <h1 className="mt-3 mb-0">Our Staff </h1>
-                                </div>
-                                <div className="intro-btn">
-                                    <a className="btn content-btn text-left" href="/">More</a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +54,7 @@ class Collections extends Component {
                                         <div className="card-caption col-12 p-0">
                                             {/* Card Body */}
                                             <div className="card-body mt-4">
-                                                <a href="/">
+                                                <a>
                                                     <h5 className="mb-2">{item.nome}</h5>
                                                 </a>
                                                 <span>{item.ruolo}</span>
