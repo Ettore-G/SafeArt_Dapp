@@ -13,12 +13,12 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "Ettore", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Aysu", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Domenico", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Antonio", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Andrea", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Domenico", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Ettore", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Antonio", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Federica", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Aysu", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Andrea", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Monica", ruolo : " Admin", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                     ],

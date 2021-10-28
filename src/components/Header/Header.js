@@ -20,8 +20,11 @@ const Header = () => {
                         <li className="nav-item">
                             <a href="/roadmap" className="nav-link">Roadmap</a>
                         </li>
-                        <li className="nav-item">
-                            <a href="/mint-your-NFT" className="nav-link">NFT</a>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link" href="/">NFT <i className="fas fa-angle-down ml-1" /></a>
+                            <ul className="dropdown-menu">
+                                <li className="nav-item"><a href="/mint-your-nft" className="nav-link">SafeArt</a></li>
+                            </ul>
                         </li>
                         <li className="nav-item">
                             <a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" target="_blank" className="nav-link">Whitepaper</a>

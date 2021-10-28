@@ -22,7 +22,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 100px;
+  width: 160px;
   cursor: pointer;
   border: 2px solid #fff;
   :active {
@@ -346,7 +346,7 @@ function ExploreThree() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      CONNECT <i className=" m-3 icon-wallet mr-md-2" />
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
