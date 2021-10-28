@@ -4047,7 +4047,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   top: 10px;
 }
 .timeline-date {
-  font-size: 18px;
+  font-size: 60px;
   color: var(--primary-color);
   margin: 6px 0 15px;
 }
