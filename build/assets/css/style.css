@@ -4013,7 +4013,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #2f363e;
+  /* background-color: #2f363e; */
   left: calc(50% - 1px);
 }
 .timeline-item {
@@ -4046,9 +4046,10 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   margin: 6px 0 15px;
 }
 .timeline-content {
-  background-color: #2f363e;
+  /* background-color: #2f363e; */
   padding: 30px;
   border-radius: 5px;
+  width: 3000px;
 }
 
 .timeline-content h3 {

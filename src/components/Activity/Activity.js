@@ -101,7 +101,8 @@ class Activity extends Component {
                                         <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q1 2022</h3>
-                                            <p>Rilascio collezione nft + moneta. </p>
+                                            <p>Il team di safeart.io vanta esperti disegnatori 3D specializzati nel mondo dell’arte e attualmente impegnati nella realizzazione delle prime due collezioni, da 10.000 NFT ciascuna, che saranno rilasciate nel primo trimestre del 2022. Le prime due collezioni, che definiremo per praticità di epoca arcaica, saranno le uniche ideate e realizzate in maniera autonoma, poiché tutti gli NFT rilasciati in futuro saranno scelti direttamente dalla community tramite votazione. La maggioranza deciderà soggetto, quantità e varianti della collezione stessa da realizzare. Gli NFT saranno su blockchain Ethereum e il mint2 sarà possibile direttamente dal sito safeart.io.
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="timeline-item">
