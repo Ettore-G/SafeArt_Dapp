@@ -4047,17 +4047,17 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   top: 10px;
 }
 .timeline-date {
-  font-size: 60px;
+  font-size: 30px;
   color: var(--primary-color);
   margin: 6px 0 15px;
 }
 .timeline-content {
   /* background-color: #2f363e; */
-  padding: 30px;
+  padding: 40px;
   border-radius: 5px;
 }
 .timeline-content h3 {
-  font-size: 20px;
+  font-size: 40px;
   color: #ffffff;
   margin: 0 0 10px;
   text-transform: capitalize;
@@ -4065,7 +4065,8 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 .timeline-content p {
   color: #c8c8c8;
-  font-size: 16px;
+  font-size: 20px;
+  word-spacing: 5px;
   font-weight: 300;
   line-height: 22px;
 }
