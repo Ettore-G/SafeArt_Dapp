@@ -33,7 +33,7 @@ const Header = () => {
                             <a className="nav-link" href="/">Community <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
                                 <li className="nav-item"><a href="/news" className="nav-link">News</a></li>
-                                <li className="nav-item"><a href="/#staff" className="nav-link">Staff</a></li>
+                                <li className="nav-item"><a href="#staff" className="nav-link">Staff</a></li>
                             </ul>
                         </li>
                         <li className="nav-item">

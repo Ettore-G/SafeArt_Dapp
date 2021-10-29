@@ -880,6 +880,21 @@ aside {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.intro-trattino {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 45px;
+  background-image: linear-gradient(
+    135deg,
+    var(--primary-color) 10%,
+    var(--secondary-color)
+  );
+  top: 50%;
+  left: calc(100% + 20px);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 .intro h1:first-child,
 .intro h2:first-child,
