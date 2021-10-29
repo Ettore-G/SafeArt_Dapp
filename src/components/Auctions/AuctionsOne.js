@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 const initData = {
     pre_heading: "How it works",
     heading: "SafeArt",
-    text: "10,000 SafeArt of the metaverse of the Ethereum blockchain. The SafeArt community accepts all shapes, sizes and cultures. Join on a quest filled with cow tipping rewards and adventures!",
+    text: "Noi, ideatori di safeart.io, crediamo fortemente che il futuro dell’arte sia digitale, sia per quanto riguarda le nuove opere, che per quelle realizzate dai più grandi artisti del passato, quelli che per l’appunto hanno fatto la storia dell’arte. È nostro dovere come essere umani preservare e custodire le opere d’arte digitalizzandole e rendendole immortali sulla blockchain2. Non sappiamo cosa ci aspetta in futuro, cambiamenti climatici e altri fattori stanno mettendo a dura prova la nostra specie e tutte le creazioni artistiche esistenti. Il tutto potrà ulteriormente peggiorare con il passare del tempo, pertanto salvare l’arte è un nostro dovere. L’arte è l’espressione dell’essere umano stesso.",
     btnText: "View All",
     heading1: "Fair Distribution",
-    text1: "There are no bonding curves here. Buying a SafeArt costs 0.055 ETH. There are no price tiers; SafeArt membership costs the same for everyone."
+    text1: "Gli NFT safeart.io serviranno per vari scopi all’interno della piattaforma in futuro. Oltre che a collezionarli ed essere ricompensati per quelli detenuti, consentiranno di interagire all’interno dei giochi di safeart.io, sulla piattaforma di trading e per il lancio di artist token. "
 }
 
 const data = [

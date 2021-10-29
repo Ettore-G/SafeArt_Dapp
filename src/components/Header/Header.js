@@ -48,6 +48,7 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
+                    
                     {/* Navbar Action Button */}
                     <WalletCard />
                     {/* <ul className="navbar-nav action">

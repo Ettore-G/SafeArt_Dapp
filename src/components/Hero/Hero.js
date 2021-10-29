@@ -88,6 +88,24 @@ class Hero extends Component {
                             <div className="button-group">
                                 <WalletCard />
                             </div>
+                            <div className="social-icons d-flex py-4">
+                                        <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
+                                            <i className="fab fa-discord" />
+                                            <i className="fab fa-discord" />
+                                        </a>
+                                        <a key="2" className="Discord" href="https://twitter.com/Safee_Art"target="_blank">
+                                            <i className="fab fa-twitter" />
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                        <a key="3" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk"target="_blank">
+                                            <i className="fab fa-telegram" />
+                                            <i className="fab fa-telegram" />
+                                        </a>
+                                        <a key="4" className="Discord" href="https://www.reddit.com/r/SafeArt/" target="_blank">
+                                            <i className="fab fa-reddit-alien"></i>
+                                            <i className="fab fa-reddit-alien"></i>
+                                        </a>
+                                    </div>
                         </div>
                         <div className="col-12 col-md-6 d-flex pad-right justify-content-center ">
                             <div className="outer-circle">

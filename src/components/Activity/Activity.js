@@ -110,7 +110,9 @@ class Activity extends Component {
                                         <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q2 2020</h3>
-                                            <p>Swrap </p>
+                                            <p>Safeart.io procederà con la creazione di token collegati alla storia dell’arte antica e contemporanea, fisica e digitale in versione wrappata9. In questo modo si rilascerà quella che è una sorta di attestato di possesso a ogni singolo membro della community. Ogni opera digitale si identifica con un codice univoco che rappresenta quello che è il suo indirizzo, all’interno del quale sarà possibile risalire ai dati del creatore.
+                                            Per fare un esempio le creazioni legate a Picasso verranno wrappate con la lettera S davanti, pertanto “Spic”.
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="timeline-item">
@@ -118,7 +120,9 @@ class Activity extends Component {
                                         <div className="timeline-date">2022</div>
                                         <div className="timeline-content">
                                             <h3>Q4 2022</h3>
-                                            <p>NFT game metaverse. </p>
+                                            <p>Nella nostra piattaforma non potevano certo mancare gaming e metaverse10. Gli NFT che creeremo saranno fruibili nei giochi che svilupperemo entro il quarto trimestre del 2022.
+                                            Art Hunting è il nome del gioco che verrà elaborato. Qui il nostro avatar cercherà opere d’arte NFT inedite in un mondo futuristico; una volta trovate potrà diventarne proprietario e il token safeart.io servirà per rendere il proprio cacciatore più abile nella ricerca di altre opere d’arte di cui impadronirsi. 
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="timeline-item">
@@ -126,7 +130,8 @@ class Activity extends Component {
                                         <div className="timeline-date">2023</div>
                                         <div className="timeline-content">
                                             <h3>Q1 2023</h3>
-                                            <p>Trading NFT. </p>
+                                            <p>Safeart.io procederà con la creazione della piattaforma di trading NFT dove quelli wrappati più rilevanti saranno listati per il trading. Prevediamo la realizzazione della piattaforma entro il primo trimestre del 2023, ma non escludiamo che ciò possa avvenire anche con un pochino di anticipo. 
+                                            I trader saranno ricompensati con NFT safeart.io in base al livello di fidelizzazione guadagnato sulla piattaforma stessa. </p>
                                         </div>
                                     </div>
                                     <div className="timeline-item">
@@ -134,7 +139,9 @@ class Activity extends Component {
                                         <div className="timeline-date">2024</div>
                                         <div className="timeline-content">
                                             <h3>Q? 2024</h3>
-                                            <p>Mainnet. </p>
+                                            <p>Dopo testnet12 e in base al volere della community e alla sua partecipazione al progetto, safeart.io svilupperà la propria blockchain. Non è possibile ora determinare con esattezza le tempistiche, ma prevediamo di poter ultimare il prodotto nel 2024. 
+                                            Riteniamo che questo sia uno sviluppo determinante e importante per la community, ma per qualsiasi decisione più complessa aspettiamo di interfacciarci con essa, al fine di individuare la strada da intraprendere insieme in modo che ne siano tutti soddisfatti, o quanto meno la maggioranza avente diritto di voto.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

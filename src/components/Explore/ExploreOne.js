@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 const initData = {
-    pre_heading: "roadmap",
-    heading: "Roadmap",
+    pre_heading: "collection",
+    // heading: "Roadmap",
     text: "lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
     btn_1: "View All",
     btn_2: "Load More"
@@ -132,85 +132,45 @@ class ExploreOne extends Component {
     }
     render() {
         return (
-            <section className="explore-area load-more p-0">
+            <section className="live-auctions-area">
                 <div className="container">
-                    <div id="roadmap"className="row">
+                    <div className="row">
                         <div className="col-12">
                             {/* Intro */}
                             <div className="intro d-flex justify-content-between align-items-end m-0">
                                 <div className="intro-content">
                                     <span>{this.state.initData.pre_heading}</span>
-                                    <h1 className="mt-3 mb-0">{this.state.initData.heading}</h1>
-                                    <p>{this.state.initData.text}</p>
-                                </div>
-                                <div className="intro-btn">
-                                    <a className="btn content-btn" href="/roadmap">{this.state.initData.btn_1}</a>
-                                </div>
-                            </div>
-                        </div>
-                    <div className="col-12 p-0">    
-                        <div className="container py-5 text-center">
-                            <div className="main-timeline-4 text-white ">
-                                <div className="timeline-4 left-4 ">
-                                    <div className="card gradient-custom ">
-                                        <div className="card-body p-0">
-                                            <i className="fab fa-artstation fa-2x mb-3"></i>
-                                            <h4>25 %</h4>
-                                            {/* <p className="small text-white-50 mb-4">May 21</p> */}
-                                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
-                                                per, habeo iusto primis ea eam.
-                                            </p>
-                                            {/* <h6 className="badge bg-light text-black mb-0">New</h6>
-                                            <h6 className="badge bg-light text-black mb-0">Admin</h6> */}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="timeline-4 right-4">
-                                    <div className="card gradient-custom-4">
-                                        <div className="card-body p-0">
-                                            <i className="fas fa-paint-roller fa-2x mb-3"></i>
-                                            <h4>50 %</h4>
-                                            {/* <p className="small text-white-50 mb-4">May 18</p> */}
-                                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
-                                                per, habeo iusto primis ea eam.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="timeline-4 left-4">
-                                    <div className="card gradient-custom">
-                                        <div className="card-body p-0">
-                                            <i className="fas fa-paint-brush fa-2x mb-3"></i>
-                                            <h4>75 %</h4>
-                                            {/* <p className="small text-white-50 mb-4">May 6</p> */}
-                                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
-                                                per, habeo iusto primis ea eam.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="timeline-4 right-4">
-                                    <div className="card gradient-custom-4">
-                                        <div className="card-body p-0">
-                                            <i className="fas fa-palette fa-2x mb-3"></i>
-                                            <h4>100 %</h4>
-                                            {/* <p className="small text-white-50 mb-4">Apr 26</p> */}
-                                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-                                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
-                                                per, habeo iusto primis ea eam.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <h3 className="mt-3 mb-0">{this.state.initData.heading}</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div className="auctions-slides">
+                        <div className="swiper-container slider-mid items">
+                            <div className="swiper-wrapper">
+                                {/* Single Slide */}
+                                {this.state.data.map((item, idx) => {
+                                    return (
+                                        <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item swiper-slide item">
+                                        <div className="card no-hover text-center">
+                                            <div className="image-over pt-3">
+                                                <img className="card-img-top" src={item.img} alt="" />
+                                            </div>
+                                            {/* Card Caption */}
+                                            <div className="card-caption col-12 p-0">
+                                                {/* Card Body */}
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    );
+                                })}
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         );
     }
 }

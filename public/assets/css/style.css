@@ -650,7 +650,7 @@ td {
 /* #region Section */
 section {
   width: 100%;
-  padding: 110px 0;
+  padding: 80px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -2998,7 +2998,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 ----------------------------------------------*/
 /* #region Miscellaneous */
 .scroll-to-top {
-  display: none;
+  display: normal;
   position: fixed;
   width: 40px;
   height: 45px;
@@ -3015,8 +3015,8 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   z-index: 5;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform;
@@ -4049,11 +4049,9 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .timeline-date {
   font-size: 30px;
   color: var(--primary-color);
-  margin: 6px 0 15px;
 }
 .timeline-content {
-  /* background-color: #2f363e; */
-  padding: 40px;
+  /* padding: 40px; */
   border-radius: 5px;
 }
 .timeline-content h3 {
@@ -4086,5 +4084,27 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   }
   .timeline-dot {
     left: 0;
+  }
+}
+
+.photobanner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: bannermove 10s linear infinite;
+}
+
+.photobanner img {
+  margin: 0 0.5em;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
   }
 }
