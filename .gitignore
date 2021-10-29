@@ -1,2 +1,9 @@
 node_modules\.cache\.eslintcache;
 node_modules\.cache\babel-loader\23053b3764bc4cf3873637b044f1ff04.json;
+node_modules/.cache/.eslintcache
+node_modules/.cache/babel-loader/0440a2a9699051b5c18275d7344aae1b.json
+node_modules/.cache/babel-loader/65dad73b63ae2aaec915dc34988e0126.json
+node_modules/.cache/babel-loader/7ec6f10270c9da90c497aa14349fbcb7.json
+node_modules/.cache/babel-loader/8dbd3ecc40f7a25863bc8357c319759a.json
+*.json
+node_modules/.cache/.eslintcache

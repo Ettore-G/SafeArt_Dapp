@@ -206,7 +206,7 @@ function ExploreThree() {
         flex={1}
         ai={"center"}
       >
-              <div className="stars">
+      <div className="stars">
           <div className="star"></div>
           <div className="star"></div>
           <div className="star"></div>
