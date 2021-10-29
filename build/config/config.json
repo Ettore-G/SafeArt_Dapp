@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "SafeArtTest",
   "SYMBOL": "SAF",
-  "MAX_SUPPLY": 1000,
+  "MAX_SUPPLY": 50,
   "WEI_COST": 10000000000000000,
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
