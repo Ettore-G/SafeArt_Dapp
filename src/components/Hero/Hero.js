@@ -4,8 +4,11 @@ import WalletCard from '../../WalletCard';
 const initData = {
     // pre_heading: "SafeArt",
     heading: "SafeArt",
-    content: "MINTED: ?? / ??",
-    description: "mint - price: Gas + NFT price",
+    content: "Burnt: ...",
+    description: "Circulating: ...",
+    content1: "Max Supply: ...",
+    description1: "Price: ...",
+    description2: "Market cap: ...",
     // btn_1: "Wallet Connect",
     // btn_2: "Create"
 }
@@ -82,11 +85,23 @@ class Hero extends Component {
                             <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p>
                             {/* Buttons */}
-                            <div className="progress">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ></div>
-                            </div>
+                            <p className="custom-text-height-g">{this.state.data.content1}</p>
+                            <p>{this.state.data.description1}</p>
+                            <p>{this.state.data.description2}</p>
+
                             <div className="button-group">
-                                <WalletCard />
+                                {/* <WalletCard /> */}
+                                <ul className="navbar-nav action">
+                                    <li className="nav-item ml-3">
+                                        <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
+                                            Mint your NFT
+                                        </a>
+                                        <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
+                                            Buy on UniSwap
+                                        </a>
+                                    </li>
+                                </ul>
+                                
                             </div>
                             <div className="social-icons d-flex py-4">
                                         <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
