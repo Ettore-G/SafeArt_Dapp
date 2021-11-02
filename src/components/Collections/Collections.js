@@ -19,7 +19,8 @@ class Collections extends Component {
                         {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                         {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Monica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "Maurizio", ruolo : "Investor", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
                     ],
                     // collectionData: res.data.collectionData
                 })
