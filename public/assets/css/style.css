@@ -330,7 +330,7 @@ table {
   box-sizing: border-box;
 }
 
-a:not(.btn),
+/* a:not(.btn),
 a:link:not(.btn),
 a:visited:not(.btn),
 a:hover:not(.btn),
@@ -340,7 +340,7 @@ a:active:not(.btn) {
   line-height: 1.5;
   color: var(--primary-color);
   text-decoration: none;
-}
+} */
 
 a:not([href]),
 a:not([href]):hover,
@@ -350,7 +350,7 @@ a:not([href]) i:hover {
 }
 
 p {
-  margin: 1.5rem 0;
+  margin: 1.0rem 0;
   font-size: var(--p-size);
   font-weight: var(--p-weight);
   line-height: 1.5;
@@ -1061,7 +1061,28 @@ aside {
   outline: 0 none;
   cursor: pointer;
   z-index: 1;
+  width: 205px;
 }
+
+/* responsive */
+@media (max-width: 767px) {
+  .btn {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white-color);
+    line-height: 1;
+    text-align: center;
+    padding: 16px 34px;
+    border: 0 none;
+    border-radius: 100px;
+    outline: 0 none;
+    cursor: pointer;
+    z-index: 1;
+    margin: 0.5rem 0;
+  }
+}
+
 
 .btn:hover,
 .btn:focus,
@@ -1930,7 +1951,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .hero-section p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .countdown {

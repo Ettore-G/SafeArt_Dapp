@@ -32,13 +32,13 @@ const Header = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="/">Community <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
-                                <li className="nav-item"><a href="/news" className="nav-link">News</a></li>
+                                {/* <li className="nav-item"><a href="/news" className="nav-link">News</a></li> */}
                                 <li className="nav-item"><a href="#staff" className="nav-link">Staff</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="/contact" className="nav-link">Contact</a>
-                        </li>
+                        </li> */}
                     </ul>
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">

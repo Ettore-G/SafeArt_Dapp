@@ -23,7 +23,7 @@ class MyRouts extends React.Component {
             <Route exact path="/blog-single" component={BlogSingle} />
             {/* <Route exact path="/login" component={Login} />
             <Route exact path="/signup" component={Signup} /> */}
-            <Route exact path="/contact" component={Contact} />
+            {/* <Route exact path="/contact" component={Contact} /> */}
           </Switch>
         </Router>
       </div>

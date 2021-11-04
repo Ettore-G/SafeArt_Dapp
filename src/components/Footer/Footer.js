@@ -68,7 +68,7 @@ class Footer extends Component {
                                         <li key="2"><a href="/roadmap">Roadmap</a></li>
                                         <li key="3"><a href="/claim-your-NFT">NFT</a></li>
                                         <li key="4"><a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true">Whitepaper</a></li>
-                                        <li key="5"><a href="/contact">Contact</a></li>
+                                        {/* <li key="5"><a href="/contact">Contact</a></li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -78,22 +78,22 @@ class Footer extends Component {
                                     {/* Footer Title */}
                                     <h4 className="footer-title">{this.state.data.widget_2}</h4>
                                     <ul>
-                                        <li key="1"><a href="/news">News</a></li>    
+                                        {/* <li key="1"><a href="/news">News</a></li>     */}
                                         <li key="2"><a href="/">Staff</a></li>                                      
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-lg-3">
                                 {/* Footer Items */}
-                                <div className="footer-items">
                                     {/* Footer Title */}
-                                    <h4 className="footer-title text-center">{this.state.data.widget_3}</h4>
                                     {/* Subscribe Form */}
+                                {/* <div className="footer-items">
+                                    <h4 className="footer-title text-center">{this.state.data.widget_3}</h4>
                                     <div className="subscribe-form  d-flex align-items-center">
                                         <input type="email" className="form-control" placeholder="info@yourmail.com" />
                                         <button type="submit" className="btn"><i className="icon-paper-plane" /></button>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

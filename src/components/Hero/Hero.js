@@ -4,11 +4,11 @@ import WalletCard from '../../WalletCard';
 const initData = {
     // pre_heading: "SafeArt",
     heading: "SafeArt",
-    content: "Burnt: ...",
-    description: "Circulating: ...",
-    content1: "Max Supply: ...",
-    description1: "Price: ...",
-    description2: "Market cap: ...",
+    content: "Burnt: 200 000",
+    description: "Circulating: 123 Q",
+    content1: "Max Supply: 500 000 000 000",
+    description1: "Price: 0,00000001 $",
+    description2: "Market cap: 654287 $",
     // btn_1: "Wallet Connect",
     // btn_2: "Create"
 }
@@ -91,13 +91,21 @@ class Hero extends Component {
 
                             <div className="button-group">
                                 {/* <WalletCard /> */}
-                                <ul className="navbar-nav action">
-                                    <li className="nav-item ml-3">
+                                <ul className="navbar-nav action text-center">
+                                    <li className="nav-item">
                                         <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
                                             Mint your NFT
                                         </a>
-                                        <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
+                                    </li>
+                                    <li>
+                                    <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
                                             Buy on UniSwap
+                                        </a>
+                                        <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
+                                            Buy on Rubic
+                                        </a>
+                                        <a className="btn ml-lg-auto btn-bordered-white" href="/mint-your-NFT">
+                                            Buy on Fedex
                                         </a>
                                     </li>
                                 </ul>
