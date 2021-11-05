@@ -7,3 +7,4 @@ node_modules/.cache/babel-loader/7ec6f10270c9da90c497aa14349fbcb7.json
 node_modules/.cache/babel-loader/8dbd3ecc40f7a25863bc8357c319759a.json
 *.json
 node_modules/.cache/.eslintcache
+build
