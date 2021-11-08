@@ -20,9 +20,9 @@ class ThemeOne extends Component {
                 {/* <TopSeller /> */}
                 {/* roadmap */}
                 <Explore />
+                <Work />
                 <Collections />
                 {/* FAQ */}
-                <Work />
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />

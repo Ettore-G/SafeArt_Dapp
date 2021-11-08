@@ -13,14 +13,14 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Roos", ruolo : "Co-Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
-                        {nome : "Maurizio", ruolo : "Investor", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png"},
+                        {nome : "BomberBax", ruolo : "Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
+                        {nome : "Roos", ruolo : "Co-Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
+                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
+                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
+                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
+                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
+                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
+                        {nome : "Maurizio", ruolo : "Investor", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -55,10 +55,13 @@ class Collections extends Component {
                                         <div className="card-caption col-12 p-0">
                                             {/* Card Body */}
                                             <div className="card-body mt-4">
-                                                <a>
+                                                <a href={item.link} target="_blank">
                                                     <h5 className="mb-2">{item.nome}</h5>
                                                 </a>
                                                 <span>{item.ruolo}</span>
+                                                <div>
+                                                <a className={item.icon} ></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
