@@ -281,19 +281,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "string",
-				"name": "_initNotRevealedUri",
-				"type": "string"
-			}
-		],
-		"name": "setNotRevealedURI",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "address",
 				"name": "from",
 				"type": "address"
@@ -349,11 +336,6 @@
 			{
 				"internalType": "string",
 				"name": "_initBaseURI",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "_initNotRevealedUri",
 				"type": "string"
 			}
 		],
@@ -432,19 +414,6 @@
 				"internalType": "address",
 				"name": "",
 				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "hiddenbaseURI",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
 			}
 		],
 		"stateMutability": "view",
