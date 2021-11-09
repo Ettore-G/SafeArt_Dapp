@@ -1,5 +1,4 @@
 import React from 'react';
-import WalletCard from '../../WalletCard';
 
 const Header = () => {
     return (
@@ -32,13 +31,9 @@ const Header = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="/">Community <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
-                                {/* <li className="nav-item"><a href="/news" className="nav-link">News</a></li> */}
                                 <li className="nav-item"><a href="#staff" className="nav-link">Staff</a></li>
                             </ul>
                         </li>
-                        {/* <li className="nav-item">
-                            <a href="/contact" className="nav-link">Contact</a>
-                        </li> */}
                     </ul>
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">
@@ -48,14 +43,7 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                    
-                    {/* Navbar Action Button */}
-                    <WalletCard />
-                    {/* <ul className="navbar-nav action">
-                        <li className="nav-item ml-3">
-                            <a href="/wallet-connect" className="btn ml-lg-auto btn-bordered-white"><i className="icon-wallet mr-md-2" />Wallet Connect</a>
-                        </li>
-                    </ul> */}
+                
                 </div>
             </nav>
         </header>
