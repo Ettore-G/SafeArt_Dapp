@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Stars from '../components/Stars/Stars'
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
 import Explore from '../components/Explore/ExploreOne';
@@ -13,65 +13,13 @@ import Collections from'../components/Collections/Collections';
 class ThemeOne extends Component {
     render() {
         return (
-            <div className="main">
-                    <div className="stars">
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                        <div className="star"></div>
-                    </div>
+            <div className="main">         
                 <Header />
                 <Hero />
+                <Stars />
                 <Auctions />
                 {/* <TopSeller /> */}
                 {/* roadmap */}
-                
                 <Explore />
                 <Work />
                 <Collections />

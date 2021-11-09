@@ -6,7 +6,7 @@ const initData = {
     heading: "SafeArt",
     content: "Burnt: 200 000",
     description: "Circulating: 123 Q",
-    content1: "Max Supply: 500 000 000 000",
+    content1: "Max Supply: 500 Q",
     description1: "Price: 0,00000001 $",
     description2: "Market cap: 654287 $",
     // btn_1: "Wallet Connect",

@@ -90,7 +90,7 @@ class Faq extends Component {
                                             {/* Single Accordion Item */}
                                             {this.state.data.map((item, idx) => {
                                                 return (
-                                                    <div key={`fd_${idx}`} className="single-accordion-item p-3">
+                                                    <div key={`fd_${idx}`} className="single-accordion-item p-2">
                                                         {/* Card Header */}
                                                         <div className="card-header bg-inherit border-0 p-0">
                                                             <h2 className="m-0">
