@@ -14,11 +14,64 @@ class ThemeOne extends Component {
     render() {
         return (
             <div className="main">
+                    <div className="stars">
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                        <div className="star"></div>
+                    </div>
                 <Header />
                 <Hero />
                 <Auctions />
                 {/* <TopSeller /> */}
                 {/* roadmap */}
+                
                 <Explore />
                 <Work />
                 <Collections />

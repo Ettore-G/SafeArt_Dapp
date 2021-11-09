@@ -24,60 +24,8 @@ class Hero extends Component {
     }
     render() {
         return (
-            <section id="hero" className="hero-section h-100 row align-items-center">
+            <section id="hero" className="hero-section row align-items-center">
                 <div className="container-fluid">
-                        <div className="stars">
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                            <div className="star"></div>
-                        </div>
                     <div  id="home"className="row align-items-center xs-column-reverse mt-5">
                         <div className="col-12 col-md-6 col-xs-12 main-text padding-left-homepage ">
                             <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1>
@@ -108,7 +56,7 @@ class Hero extends Component {
                                 </ul>
                                 
                             </div>
-                            <div className="social-icons d-flex py-4">
+                            <div className="social-icons d-flex py-4 justify-content-center">
                                         <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
                                             <i className="fab fa-discord" />
                                             <i className="fab fa-discord" />

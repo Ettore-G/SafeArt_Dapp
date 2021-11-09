@@ -52,8 +52,8 @@
 ----------------------------------------------*/
 /* #region Root */
 :root {
-  --primary-font: "Jost", sans-serif;
-  --secondary-font: "Poppins", sans-serif;
+  --primary-font: "roboto" ,sans-serif;
+  --secondary-font: "roboto", sans-serif;
   --h1-size: 4rem;
   --h1-weight: 900;
   --h2-size: 3rem;
@@ -1918,7 +1918,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .hero-section{
   position: relative;
-  background-color: var(--footer-bg-color);
+
   z-index: 1;
   height: 25vh !important;
 }
@@ -2817,7 +2817,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   width: 45px;
   height: 45px;
   font-size: 20px;
-  background: #222;
+  background: #121117;
   color: var(--white-color) !important;
   border-radius: 3px;
   overflow: hidden;
@@ -2840,7 +2840,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .footer-area .footer-top {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 @media (max-width: 767px) {
@@ -3522,15 +3522,11 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   }
 }
 #hero {
-  /* display: flex; */
-  /* margin-top: 85px; */
-  /* padding: 50px; */
+
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: radial-gradient(ellipse at bottom);
   overflow: hidden;
-  /* margin-left: 100px; */
 }
 
 
@@ -3561,7 +3557,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   --star-tail-length: 6em;
   --star-tail-height: 2px;
   --star-width: calc(var(--star-tail-length) / 6);
-  --fall-duration: 7s;
+  --fall-duration: 10s;
   --tail-fade-duration: var(--fall-duration);
   position: absolute;
   top: var(--top-offset);
