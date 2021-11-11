@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // importing all the themes
 import ThemeOne from "../themes/theme-one";
 import ExploreThree from "../themes/explore-three";

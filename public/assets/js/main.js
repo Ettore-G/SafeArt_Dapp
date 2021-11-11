@@ -1,27 +1,4 @@
 /*----------------------------------------------
-*
-* [Main Scripts]
-*
-* Theme    : Netstorm
-* Version  : 1.0
-* Author   : Themeland
-* Support  : hridoy1272@gmail.com
-* 
-----------------------------------------------*/
-
-/*----------------------------------------------
-
-[ALL CONTENTS]
-
-1. Preloader
-2. Responsive Menu
-3. Navigation 
-4. Slides
-5. Load More
-6. Shuffle
-7. Contact Form
-
-/*----------------------------------------------
 1. Preloader
 ----------------------------------------------*/
 

@@ -13,8 +13,8 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
-                        {nome : "Roos", ruolo : "Co-Owner", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
+                        {nome : "BomberBax", ruolo : "Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
+                        {nome : "Roos", ruolo : "Co-Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
                         {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
                         {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
                         {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
