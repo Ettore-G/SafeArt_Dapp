@@ -10,7 +10,7 @@ import ComingSoon from '../components/ComingSoon/ComingSoon';
 class Coming extends Component {
     render() {
         return (
-            <div className="main">         
+            <div className="main">   
                 <Header />
                 {/* <Stars /> */}
                 <ComingSoon />
