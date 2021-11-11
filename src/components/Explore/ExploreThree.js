@@ -206,64 +206,17 @@ function ExploreThree() {
         flex={1}
         ai={"center"}
       >
-      <div className="stars">
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-      </div>
+            
 
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+
           <s.Container flex={1} jc={"center"} ai={"center"}>
+            
           </s.Container>
+          
           <s.SpacerLarge />
+          
           <s.Container
             flex={2}
             jc={"center"}
@@ -273,6 +226,7 @@ function ExploreThree() {
               borderRadius: 24,
             }}
           >
+            
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -281,19 +235,25 @@ function ExploreThree() {
                 color: "var(--white-color)",
               }}
             >
+              
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
+            
             <s.TextDescription
               style={{
                 textAlign: "center",
                 color: "var(--primary-text)",
               }}
             >
+              
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 20)}
               </StyledLink>
+              
             </s.TextDescription>
+            
             <s.SpacerSmall />
+            
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
@@ -351,6 +311,7 @@ function ExploreThree() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
+                        
                         <s.TextDescription
                           style={{
                             textAlign: "center",
@@ -373,7 +334,9 @@ function ExploreThree() {
                       {feedback}
                     </s.TextDescription>
                     <s.SpacerMedium />
+                    
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
+                      
                       <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
                         disabled={claimingNft ? 1 : 0}

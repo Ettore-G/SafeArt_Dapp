@@ -12,7 +12,7 @@ class Coming extends Component {
         return (
             <div className="main">         
                 <Header />
-                <Stars />
+                {/* <Stars /> */}
                 <ComingSoon />
                 <Footer />
                 <ModalSearch />
