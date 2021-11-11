@@ -3774,6 +3774,11 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 
 /* stars */
+#wrapper {
+  padding : 0px;
+  margin : 0px;
+  position : relative;
+}
 
 #stars {
   width: 1px;
@@ -3962,7 +3967,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 #stars:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 200px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -4206,7 +4211,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 #stars2:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 200px;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -4299,7 +4304,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 #stars3:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 200px;
   width: 3px;
   height: 3px;
   background: transparent;

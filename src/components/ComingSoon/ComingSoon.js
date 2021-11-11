@@ -35,13 +35,7 @@ class ComingSoon extends Component {
         return (
             <section id="hero" className="hero-section row align-items-center">
                 <div className="container-fluid">
-                <div className="wrapper">
-                    <div id="stars"></div>
-                    <div id="stars2"></div>
-                    <div id="stars3"></div>
-                </div>
                     <div  id="home"className="row text-center">
-
                         <div className="col-12"><h1>Coming Soon</h1></div>
                         <div className="col-12"><p id="demo"></p></div>
 

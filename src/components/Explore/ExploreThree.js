@@ -206,8 +206,6 @@ function ExploreThree() {
         flex={1}
         ai={"center"}
       >
-            
-
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
 

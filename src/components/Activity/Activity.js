@@ -28,15 +28,14 @@ class Activity extends Component {
     render() {
         return (
             <section className="activity-area load-more">
-                                    <div className="wrapper">
-                        <div id="stars"></div>
-                        <div id="stars2"></div>
-                        <div id="stars3"></div> 
-                    </div>
-                <div className="container">
+                <div id="wrapper">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div> 
+                </div>
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
-                            
                             {/* Intro */}
                             <div className="intro mb-4">
                                 <div className="intro-content">
@@ -48,8 +47,7 @@ class Activity extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <section className="timeline-section">
-                                
+                            <section className="timeline-section p-0">
                                 <div className="timeline-items">
                                     <div className="timeline-item">
                                         <div className="timeline-dot"></div>
@@ -101,7 +99,7 @@ class Activity extends Component {
                                     </div>
                                 </div>
                             </section>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
