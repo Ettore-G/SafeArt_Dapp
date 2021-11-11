@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import WalletCard from '../../WalletCard';
 
 const initData = {
     // pre_heading: "SafeArt",

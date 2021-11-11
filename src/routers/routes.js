@@ -4,6 +4,7 @@ import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-rou
 import ThemeOne from "../themes/theme-one";
 import ExploreThree from "../themes/explore-three";
 import Activity from "../themes/activity";
+import coming from "../themes/coming";
 
 
 class MyRouts extends React.Component {
@@ -12,7 +13,8 @@ class MyRouts extends React.Component {
       <div>
         <Router>
           <Switch>
-            <Route exact path="/" component={ThemeOne} />
+            {/* <Route exact path="/" component={ThemeOne} /> */}
+            <Route exact path="/" component={coming} />
             <Route exact path="/mint-your-NFT" component={ExploreThree} />
             <Route exact path="/roadmap" component={Activity} />
           </Switch>
