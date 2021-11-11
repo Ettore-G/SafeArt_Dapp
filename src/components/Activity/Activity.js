@@ -27,7 +27,7 @@ class Activity extends Component {
     }
     render() {
         return (
-            <section className="activity-area load-more">
+            <section id="roadmap" className="activity-area load-more">
                 <div id="wrapper">
                     <div id="stars"></div>
                     <div id="stars2"></div>

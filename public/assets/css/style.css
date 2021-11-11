@@ -650,7 +650,7 @@ td {
 /* #region Section */
 section {
   width: 100%;
-  padding: 80px;
+  padding: 50px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -2414,6 +2414,10 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .activity-area .netstorm-tab.nav-tabs {
   border-bottom: 2px solid var(--card-bg-color);
+}
+#roadmap{
+  padding-top : 100px;
+  padding-bottom : 20px;
 }
 
 .activity-area .netstorm-tab li {

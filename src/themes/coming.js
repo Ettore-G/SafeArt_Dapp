@@ -5,6 +5,7 @@ import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
 import Scrollup from '../components/Scrollup/Scrollup';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
+import Hero from '../components/Hero/Hero';
 class Coming extends Component {
     render() {
         return (
