@@ -39,7 +39,7 @@ class ComingSoon extends Component {
                     <div  id="home"className="row text-center">
 
                         <div className="col-12"><h1>Coming Soon</h1></div>
-                        <div className="col-12"><p id="demo">efefef</p></div>
+                        <div className="col-12"><p id="demo"></p></div>
 
                     </div>
                 </div>
