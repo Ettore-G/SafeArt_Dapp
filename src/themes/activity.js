@@ -17,7 +17,7 @@ class Activity extends Component {
                 <ModalSearch />
                 <ModalMenu />
                 <Scrollup />
-                <div id="demo"></div>
+                <div id="demo" class="d-none"></div>
             </div>
         );
     }
