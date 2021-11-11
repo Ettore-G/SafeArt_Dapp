@@ -25,7 +25,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <footer className="footer-area">
+            <footer className="footer-area position-relative">
                 {/* Footer Top */}
                 <div className="footer-top">
                     <div className="container d-flex justify-content-center">
