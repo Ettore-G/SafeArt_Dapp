@@ -12,6 +12,11 @@ class ExploreThree extends Component {
         return (
             <div className="main">
                 <Header />
+                <div id="wrapper">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+                </div>
                 <Explore />
                 <Footer />
                 <ModalSearch />
