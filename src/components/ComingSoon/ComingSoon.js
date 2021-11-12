@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+    var countDownDate = new Date("Jan 30, 2022 12:00:00").getTime();
 
     // Update the count down every 1 second
     var countdownfunction = setInterval(function() {
@@ -36,8 +36,9 @@ class ComingSoon extends Component {
             <section id="hero" className="hero-section row align-items-center">
                 <div className="container-fluid">
                     <div  id="home"className="row text-center">
-                        <div className="col-12"><h1>Coming Soon</h1></div>
-                        <div className="col-12"><p id="demo"></p></div>
+                        <div className="col-12"><h1>SafeArt</h1><h1 className="custom-text-coming">Coming Soon</h1>
+                        </div>
+                        <div className="col-12"><p className="custom-text-coming" id="demo"></p></div>
 
                     </div>
                 </div>

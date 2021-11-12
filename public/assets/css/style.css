@@ -1952,7 +1952,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .hero-section p {
-  font-size: 1.3rem;
+  font-size: 3rem;
 }
 
 .countdown {
@@ -3552,6 +3552,10 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .custom-image {
   height: 500px;
+}
+
+.custom-text-coming{
+  font-size: 100px;
 }
 
 .custom-text-height {
