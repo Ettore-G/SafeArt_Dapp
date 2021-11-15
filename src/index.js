@@ -9,11 +9,11 @@ import store from "./redux/store";
 import MyRoutes from './routers/routes';
 
 ReactDOM.render(
-  <BrowserRouter>
     <Provider store={store}>
-      <MyRoutes />
-    </Provider>
-  </BrowserRouter>,
+      <BrowserRouter>
+        <MyRoutes />
+      </BrowserRouter>
+    </Provider>,
   document.getElementById('root')
 );
 
