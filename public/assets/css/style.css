@@ -2847,11 +2847,6 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   padding: 0px 0;
 }
 
-@media (max-width: 767px) {
-  .footer-area .footer-top {
-    padding: 80px 0;
-  }
-}
 
 .footer-area .footer-items .footer-title {
   margin-top: 0;
@@ -3268,9 +3263,6 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
     left: 0;
     width: 100%;
   }
-  body .footer-area .footer-top {
-    padding: 80px 0;
-  }
   body .footer-area .items .item {
     margin-bottom: 30px;
   }
@@ -3537,13 +3529,10 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 @media screen and (max-width: 720px) {
   #hero {
-    padding: 50px;
     justify-content: center;
-    align-items: center;
-    min-height: 150vh;
-    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
     overflow: hidden;
   }
+
 }
 
 
@@ -3556,6 +3545,13 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .custom-text-coming{
   font-size: 100px;
+}
+
+@media screen and (max-width: 720px) {
+  .custom-text-coming{
+    font-size: 50px;
+  }
+
 }
 
 .custom-text-height {

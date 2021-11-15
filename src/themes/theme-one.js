@@ -15,6 +15,8 @@ class ThemeOne extends Component {
         return (
             <div className="main">         
                 <Header />
+                <Stars />
+
                 <Hero />
                 <Stars />
                 <Auctions />
