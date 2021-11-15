@@ -6,7 +6,6 @@ class NotFound extends Component {
                     <div  id="home"className="row text-center">
                         <div className="col-12"><h1>SafeArt</h1><h1 className="custom-text-coming">404 NOT FOUND</h1>
                         </div>
-                        <div className="col-12"><p className="custom-text-coming" id="demo"></p></div>
 
                     </div>
                 </div>
