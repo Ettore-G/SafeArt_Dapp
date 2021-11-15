@@ -15,7 +15,8 @@ class MyRouts extends React.Component {
       <div>
         <Router>
           <Switch>
-            <Route path='*' element={<NotFound />} />
+            {/* <Route path='' component={NotFound}
+            redirect to='/' /> */}
             {/* <Route exact path="/" component={ThemeOne} /> */}
             <Route exact path="/" component={Coming} />
             <Route path="/mint-your-NFT" component={ExploreThree} />
