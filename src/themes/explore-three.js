@@ -6,17 +6,14 @@ import Footer from '../components/Footer/Footer';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
 import Scrollup from '../components/Scrollup/Scrollup';
+import Stars from '../components/Stars/Stars';
 
 class ExploreThree extends Component {
     render() {
         return (
             <div className="main">
                 <Header />
-                <div id="wrapper">
-                    <div id="stars"></div>
-                    <div id="stars2"></div>
-                    <div id="stars3"></div>
-                </div>
+                <Stars />
                 <Explore />
                 <Footer />
                 <ModalSearch />

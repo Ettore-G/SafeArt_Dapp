@@ -224,6 +224,7 @@ function ExploreThree() {
               borderRadius: 24,
             }}
           >
+            <h1>SafeArt</h1>
             
             <s.TextTitle
               style={{

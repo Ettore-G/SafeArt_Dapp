@@ -18,12 +18,9 @@ class ThemeOne extends Component {
                 <Hero />
                 <Stars />
                 <Auctions />
-                {/* <TopSeller /> */}
-                {/* roadmap */}
                 <Explore />
                 <Work />
                 <Collections />
-                {/* FAQ */}
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />
