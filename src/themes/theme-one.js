@@ -10,13 +10,13 @@ import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
 import Scrollup from '../components/Scrollup/Scrollup';
 import Collections from'../components/Collections/Collections';
+
 class ThemeOne extends Component {
     render() {
         return (
             <div className="main">         
                 <Header />
                 <Stars />
-
                 <Hero />
                 <Stars />
                 <Auctions />
