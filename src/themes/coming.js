@@ -10,7 +10,7 @@ import Explore from '../components/Explore/ExploreOne';
 import Work from '../components/Work/Work';
 import Stars from '../components/Stars/Stars'
 import Collections from'../components/Collections/Collections';
-import Hero from '../components/Hero/Hero';
+
 class Coming extends Component {
     render() {
         return (

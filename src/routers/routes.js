@@ -15,12 +15,12 @@ class MyRouts extends React.Component {
       <div>
         <Router>
           <Switch>
-            {/* <Route path='*' element={NotFound} /> */}
             {/* <Route exact path="/" component={ThemeOne} /> */}
             <Route exact path="/" component={Coming} />
             <Route path="/mint-your-NFT" component={ExploreThree} />
             <Route path="/roadmap" component={Activity} />
             <Route path="/404" component={NotFound} />
+            <Route component={NotFound} />
           </Switch>
         </Router>
       </div>

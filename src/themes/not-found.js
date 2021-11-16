@@ -3,14 +3,15 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Scrollup from '../components/Scrollup/Scrollup';
 import Stars from '../components/Stars/Stars'
+import NotFound from '../components/NotFound/NotFound';
 
-class NotFound extends Component {
+class nottfound extends Component {
     render() {
         return (
             <div className="main">   
                 <Header />
                 <Stars />
-
+                <NotFound />
                 <Footer />
                 <Scrollup />
             </div>
@@ -18,4 +19,4 @@ class NotFound extends Component {
     }
 }
 
-export default NotFound;
+export default nottfound;
