@@ -8,7 +8,7 @@ import ComingSoon from '../components/ComingSoon/ComingSoon';
 import Auctions from '../components/Auctions/AuctionsOne';
 import Explore from '../components/Explore/ExploreOne';
 import Work from '../components/Work/Work';
-import Stars from '../components/Stars/Stars'
+import Stars from '../components/Stars/Stars';
 import Collections from'../components/Collections/Collections';
 
 class Coming extends Component {

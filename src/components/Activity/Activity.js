@@ -28,11 +28,6 @@ class Activity extends Component {
     render() {
         return (
             <section id="roadmap" className="activity-area load-more">
-                <div id="wrapper">
-                    <div id="stars"></div>
-                    <div id="stars2"></div>
-                    <div id="stars3"></div> 
-                </div>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
