@@ -29,16 +29,15 @@ const Header = () => {
                             <Link to="/roadmap" className="nav-link">Roadmap</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" target="_blank" className="nav-link">Whitepaper</Link>
+                            <Link to="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" target="_blank" target="_blank" className="nav-link">Whitepaper</Link>
                         </li>
-                            <li className="nav-item"><Link to="#staff" className="nav-link">Staff</Link></li>
                     </ul>
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link" data-toggle="modal" data-target="#menu">
+                            <a className="nav-link" data-toggle="modal" data-target="#menu">
                                 <i className="fas fa-bars toggle-icon m-0" />
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 

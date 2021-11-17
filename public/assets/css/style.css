@@ -1541,6 +1541,7 @@ header .navbar-expand .dropdown .dropdown-menu .dropdown-menu {
   left: 100%;
 }
 
+
 header .navbar-expand .dropdown .dropdown-item.active,
 header .navbar-expand .dropdown .dropdown-item:hover,
 header .navbar-expand .dropdown .dropdown-item:active {
@@ -4348,4 +4349,8 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   to {
       transform: translateY(-2000px);
   }
+}
+
+.nonvedo{
+  display: none;
 }
