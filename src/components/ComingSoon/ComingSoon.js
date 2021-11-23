@@ -17,15 +17,14 @@ import React, { Component } from 'react';
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m ";
     
     // If the count down is over, write some text 
     if (distance < 0) {
     clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "See the magic";
     }
     }, 1000);
 
@@ -36,7 +35,7 @@ class ComingSoon extends Component {
             <section id="hero" className="hero-section row align-items-center">
                 <div className="container-fluid">
                     <div  id="home"className="row text-center">
-                        <div className="col-12"><h1>SafeArt</h1><h1 className="custom-text-coming">Coming Soon</h1>
+                        <div className="col-12 custom-text-coming"><h1>SafeArt</h1><h1 className="custom-text-coming">Coming Soon</h1>
                         </div>
                         <div className="col-12"><p id="demo" className="custom-text-coming" ></p></div>
                         

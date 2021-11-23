@@ -5,11 +5,11 @@ import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
 import Scrollup from '../components/Scrollup/Scrollup';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
-import Auctions from '../components/Auctions/AuctionsOne';
-import Explore from '../components/Explore/ExploreOne';
-import Work from '../components/Work/Work';
+import HowItWorks from '../components/Auctions/AuctionsOne';
+import Collection from '../components/Explore/ExploreOne';
+import Faq from '../components/Work/Work';
 import Stars from '../components/Stars/Stars';
-import Collections from'../components/Collections/Collections';
+import Staff from'../components/Collections/Collections';
 
 class Coming extends Component {
     render() {
@@ -18,11 +18,11 @@ class Coming extends Component {
                 <Header />
                 <Stars />
                 <ComingSoon />
-                <Auctions />
-                <Explore />
+                <HowItWorks />
+                <Collection />
                 <Stars />
-                <Work />
-                <Collections />
+                <Faq />
+                <Staff />
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />

@@ -9,78 +9,14 @@ const initData = {
     text1: "Gli NFT safeart.io serviranno per vari scopi all’interno della piattaforma in futuro. Oltre che a collezionarli ed essere ricompensati per quelli detenuti, consentiranno di interagire all’interno dei giochi di safeart.io, sulla piattaforma di trading e per il lancio di artist token. "
 }
 
-const data = [
-    {
-        id: "1",
-        img: "/img/auction_1.jpg",
-        date: "2021-12-09",
-        title: "Virtual Worlds",
-        seller_thumb: "/img/avatar_1.jpg",
-        seller: "@Richard",
-        price: "1.5 BNB",
-        count: "1 of 1"
-    },
-    {
-        id: "2",
-        img: "/img/auction_2.jpg",
-        date: "2021-10-05",
-        title: "Collectibles",
-        seller_thumb: "/img/avatar_2.jpg",
-        seller: "@JohnDeo",
-        price: "2.7 BNB",
-        count: "1 of 1"
-    },
-    {
-        id: "3",
-        img: "/img/auction_3.jpg",
-        date: "2021-09-15",
-        title: "Arts",
-        seller_thumb: "/img/avatar_3.jpg",
-        seller: "@MKHblots",
-        price: "2.3 BNB",
-        count: "1 of 1"
-    },
-    {
-        id: "4",
-        img: "/img/auction_4.jpg",
-        date: "2021-12-29",
-        title: "Robotic Arts",
-        seller_thumb: "/img/avatar_4.jpg",
-        seller: "@RioArham",
-        price: "1.8 BNB",
-        count: "1 of 1"
-    },
-    {
-        id: "5",
-        img: "/img/auction_5.jpg",
-        date: "2022-01-24",
-        title: "Design Illusions",
-        seller_thumb: "/img/avatar_5.jpg",
-        seller: "@ArtNox",
-        price: "1.7 BNB",
-        count: "1 of 1"
-    },
-    {
-        id: "6",
-        img: "/img/auction_6.jpg",
-        date: "2022-03-30",
-        title: "Photography",
-        seller_thumb: "/img/avatar_6.jpg",
-        seller: "@Junaid",
-        price: "3.5 BNB",
-        count: "1 of 1"
-    }
-]
 
 class AuctionsOne extends Component {
     state = {
-        initData: {},
-        data: []
+        initData: {}
     }
     componentDidMount(){
         this.setState({
-            initData: initData,
-            data: data
+            initData: initData
         })
     }
     render() {

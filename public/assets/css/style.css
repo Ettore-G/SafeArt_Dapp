@@ -3557,7 +3557,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 @media screen and (max-width: 720px) {
   .custom-text-coming{
-    font-size: 50px;
+    font-size: 70px;
   }
 
 }
@@ -4369,7 +4369,7 @@ img.caroselEasy{
   height: 100%;
 }
 .icon-cards {
-  z-index: 9999;
+  z-index: 1;
   position: relative;
   width: 60vw;
   height: 40vw;

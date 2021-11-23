@@ -75,7 +75,6 @@ class Faq extends Component {
                             <div className="intro text-center">
                                 <span>{this.state.initData.pre_heading}</span>
                                 <h1 className="mt-3 mb-0">{this.state.initData.heading} </h1>
-                                <p>{this.state.initData.content}</p>
                             </div>
                         </div>
                     </div>

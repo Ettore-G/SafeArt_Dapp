@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Stars from '../components/Stars/Stars'
-import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
-import Explore from '../components/Explore/ExploreOne';
-import Work from '../components/Work/Work';
-import Auctions from '../components/Auctions/AuctionsOne';
+import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
 import Scrollup from '../components/Scrollup/Scrollup';
-import Collections from'../components/Collections/Collections';
+import HowItWorks from '../components/Auctions/AuctionsOne';
+import Collection from '../components/Explore/ExploreOne';
+import Faq from '../components/Work/Work';
+import Stars from '../components/Stars/Stars';
+import Staff from'../components/Collections/Collections';
 
 class ThemeOne extends Component {
     render() {
@@ -18,11 +18,11 @@ class ThemeOne extends Component {
                 <Header />
                 <Stars />
                 <Hero />
+                <HowItWorks />
+                <Collection />
                 <Stars />
-                <Auctions />
-                <Explore />
-                <Work />
-                <Collections />
+                <Faq />
+                <Staff />
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />
