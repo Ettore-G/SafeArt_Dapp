@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import Stars from '../components/Effect/Stars'
+import NotFound from '../components/NotFound/NotFound';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
+import Footer from '../components/Footer/Footer';
 import Scrollup from '../components/Scrollup/Scrollup';
-import Stars from '../components/Stars/Stars'
-import NotFound from '../components/NotFound/NotFound';
 
-class nottfound extends Component {
+class notfound extends Component {
     render() {
         return (
             <div className="main">   
@@ -23,4 +23,4 @@ class nottfound extends Component {
     }
 }
 
-export default nottfound;
+export default notfound;

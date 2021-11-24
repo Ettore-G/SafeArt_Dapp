@@ -20,6 +20,7 @@ class Collections extends Component {
                         {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
                         {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
                         {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
+                        {nome : "Romina", ruolo : "Supporter", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
                     ],
                     // collectionData: res.data.collectionData
                 })
