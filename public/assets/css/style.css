@@ -4309,21 +4309,6 @@ img.caroselEasy{
   z-index: 2;
 }
 
-h4 {
-  color: #fff;
-  font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-h4:hover {
-  color: #FF1177;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
   from {
@@ -4350,4 +4335,10 @@ h4:hover {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
   }
+}
+
+/* mouse */
+
+html {
+  cursor: url('https://cdn-icons.flaticon.com/png/512/3119/premium/3119214.png?token=exp=1637852257~hmac=92abb01ec2439b321dbc3591f1000c5e'), auto
 }
