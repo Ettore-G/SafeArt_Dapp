@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Stars from '../components/Effect/Stars';
-import Particles from '../components/Effect/Particles';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Collection from '../components/Explore/Carosel';
@@ -17,11 +15,9 @@ class Coming extends Component {
         return (
             <div className="main">   
                 <Header />
-                {/* <Particles /> */}
                 <ComingSoon />
                 <HowItWorks />
                 <Collection />
-                <Stars />
                 <Faq />
                 <Staff />
                 <Footer />

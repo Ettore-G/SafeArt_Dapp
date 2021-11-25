@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Stars from '../components/Effect/Stars';
 import Home from '../components/Home/Home';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Collection from '../components/Explore/Carosel';
@@ -16,11 +15,9 @@ class ThemeOne extends Component {
         return (
             <div className="main">         
                 <Header />
-                <Stars />
                 <Home />
                 <HowItWorks />
                 <Collection />
-                <Stars />
                 <Faq />
                 <Staff />
                 <Footer />
