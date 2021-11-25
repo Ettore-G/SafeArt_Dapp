@@ -5,11 +5,7 @@ const initData = {
     heading: "SafeArt",
     content: "Burnt: 200 000",
     description: "Circulating: 123 Q",
-    content1: "Max Supply: 500 Q",
-    description1: "Price: 0,00000001 $",
-    description2: "Market cap: 654287 $",
-    // btn_1: "Wallet Connect",
-    // btn_2: "Create"
+
 }
 
 class Hero extends Component {
@@ -30,10 +26,6 @@ class Hero extends Component {
                             <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1>
                             <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p>
-                            {/* Buttons */}
-                            <p className="custom-text-height-g">{this.state.data.content1}</p>
-                            <p>{this.state.data.description1}</p>
-                            <p>{this.state.data.description2}</p>
 
                             <div className="button-group">
                                 {/* <WalletCard /> */}
@@ -75,14 +67,8 @@ class Hero extends Component {
                                     </div>
                         </div>
                         <div className="col-12 col-md-6 col-xs-12 d-flex pad-right justify-content-center ">
-                            <div className="outer-circle">
-                                <div className="inner-circle">  
                                     <img className="img-fluid no-filtro"  src="https://picsum.photos/400/400" alt="bo"></img>
-                                </div>
-                                <span className="rainbow-effect"></span>
-                                <span className="rainbow-effect"></span>
-                                <span className="rainbow-effect"></span>
-                            </div>
+                                
                         </div>
                     </div>
                 </div>

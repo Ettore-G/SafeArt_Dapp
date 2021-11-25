@@ -1769,6 +1769,12 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
     var(--primary-color) 78%
   );
 }
+/* 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+} */
+
 
 .card-columns {
   margin: 0 15px;
@@ -4337,8 +4343,20 @@ img.caroselEasy{
   }
 }
 
-/* mouse */
+/* Barra laterale */
 
-html {
-  cursor: url('https://cdn-icons.flaticon.com/png/512/3119/premium/3119214.png?token=exp=1637852257~hmac=92abb01ec2439b321dbc3591f1000c5e'), auto
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
 }
