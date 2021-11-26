@@ -16,8 +16,8 @@ class ThemeOne extends Component {
             <div className="main">         
                 <Header />
                 <Home />
-                <HowItWorks />
                 <Collection />
+                <HowItWorks />
                 <Faq />
                 <Staff />
                 <Footer />

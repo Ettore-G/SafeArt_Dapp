@@ -22,10 +22,10 @@ class Hero extends Component {
             <section id="hero" className="hero-section row align-items-center">
                 <div className="container-fluid">
                     <div  id="home"className="row align-items-center xs-column-reverse mt-5">
-                        <div className="col-12 col-md-6 col-xs-12 main-text padding-left-homepage ">
+                        <div className="col-12 col-md-12 col-xs-12 homepage-centro">
                             <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1>
-                            <p className="custom-text-height-p">{this.state.data.content}</p>
-                            <p>{this.state.data.description}</p>
+                            {/* <p className="custom-text-height-p">{this.state.data.content}</p>
+                            <p>{this.state.data.description}</p> */}
 
                             <div className="button-group">
                                 {/* <WalletCard /> */}
@@ -66,10 +66,10 @@ class Hero extends Component {
                                         </a>
                                     </div>
                         </div>
-                        <div className="col-12 col-md-6 col-xs-12 d-flex pad-right justify-content-center ">
+                        {/* <div className="col-12 col-md-6 col-xs-12 d-flex pad-right justify-content-center ">
                                     <img className="img-fluid no-filtro"  src="https://picsum.photos/400/400" alt="bo"></img>
                                 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

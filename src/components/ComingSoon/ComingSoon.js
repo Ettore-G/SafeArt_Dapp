@@ -32,15 +32,13 @@ import React, { Component } from 'react';
 class ComingSoon extends Component {
     render() {
         return (
-            <section id="hero" className="hero-section row align-items-center">
+            <section id="heroComing" className="hero-section row align-items-center">
                 <div className="container-fluid">
                     <div  id="home"className="row text-center">
                         <div className="col-12 custom-text-coming"><h1>SafeArt</h1><h1 className="custom-text-coming">Coming Soon</h1>
                         <h4 className="">Safeart.io is a new platform based on the release of NFT collections inspired by the history of art but in a futuristic reinterpretation.</h4>
                         </div>
                         <div className="col-12"><p id="demo" className="custom-text-coming" ></p></div>
-                        
-                    
                     </div>
                 </div>
             </section>
