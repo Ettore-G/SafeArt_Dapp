@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Header from '../components/Header/Header';
-import Stars from '../components/Effect/Stars'
 import Roadmap from '../components/Roadmap/Roadmap';
 import Footer from '../components/Footer/Footer';
 import ModalSearch from '../components/Modal/ModalSearch';
@@ -14,7 +13,6 @@ class Activity extends Component {
         return (
             <div className="main">
                 <Header />
-                <Stars />
                 <Roadmap />
                 <Footer />
                 <ModalSearch />

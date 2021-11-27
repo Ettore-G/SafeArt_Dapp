@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Stars from '../components/Effect/Stars'
 import NotFound from '../components/NotFound/NotFound';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
@@ -12,7 +11,6 @@ class notfound extends Component {
         return (
             <div className="main">   
                 <Header />
-                <Stars />
                 <NotFound />
                 <ModalSearch />
                 <ModalMenu />

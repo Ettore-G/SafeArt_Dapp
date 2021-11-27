@@ -37,8 +37,8 @@ class Collections extends Component {
                             {/* Intro */}
                             <div className="intro d-flex justify-content-between align-items-end m-0">
                                 <div className="intro-content">
-                                    <span>Staff</span>
-                                    <h1 className="mt-3 mb-0">Our Staff </h1>
+                                    <span>Team</span>
+                                    <h1 className="mt-3 mb-0">Our Team </h1>
                                 </div>
                             </div>
                         </div>

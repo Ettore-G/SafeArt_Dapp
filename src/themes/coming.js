@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import HeaderSoon from '../components/Header/HeaderSoon';
-import Stars from '../components/Effect/Stars';
 import ComingSoon from '../components/ComingSoon/ComingSoon';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Collection from '../components/Explore/Carosel';
@@ -16,11 +15,9 @@ class Coming extends Component {
         return (
             <div className="main">   
                 <HeaderSoon />
-                <Stars />
                 <ComingSoon />
                 {/* <HowItWorks />
                 <Collection />
-                <Stars />
                 <Faq />
                 <Staff /> */}
                 <Footer />
