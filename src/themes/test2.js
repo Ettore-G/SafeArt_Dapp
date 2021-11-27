@@ -18,6 +18,7 @@ class Coming extends Component {
             <div className="main">   
                 <Header />
                 {/* <Particles /> */}
+                <Stars />
                 <ComingSoon />
                 <HowItWorks />
                 <Collection />
