@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
     // Set the date we're counting down to
-    let countDownDate = new Date("Jan 30, 2022 12:00:00").getTime();
+    let countDownDate = new Date("Jan 20, 2022 21:00:00").getTime();
 
     // Update the count down every 1 second
     let countdownfunction = setInterval(function() {
@@ -36,7 +36,8 @@ class ComingSoon extends Component {
                 <div className="container-fluid">
                     <div  id="home"className="row text-center">
                         <div className="col-12 custom-text-coming"><h1>SafeArt</h1><h1 className="custom-text-coming">Coming Soon</h1>
-                        <h4 className="">Safeart.io is a new platform based on the release of NFT collections inspired by the history of art but in a futuristic reinterpretation.</h4>
+                        <h4 className="">Safeart.io is a new platform based on the release NFT collections inspired at the history of art and generative-art collection.</h4>
+                        <h4 className="">First drop.</h4>
                         </div>
                         <div className="col-12"><p id="demo" className="custom-text-coming" ></p></div>
                     </div>
