@@ -106,7 +106,7 @@ function ExploreThree() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
+  const [feedback, setFeedback] = useState(`Click buy to mint your Octopus.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -116,7 +116,7 @@ function ExploreThree() {
       SYMBOL: "",
       ID: 0,
     },
-    NFT_NAME: "",
+    NFT_NAME: "Octopus",
     SYMBOL: "",
     MAX_SUPPLY: 1,
     WEI_COST: 0,
@@ -224,7 +224,7 @@ function ExploreThree() {
               borderRadius: 24,
             }}
           >
-            <h1>SafeArt</h1>
+            <h1>Octopus</h1>
             
             <s.TextTitle
               style={{

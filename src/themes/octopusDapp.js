@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-import Mint from './../components/Mint/MintDapp';
+import OctopusDapp from './../components/Mint/OctopusDapp';
+import OctopusDetails from './../components/NFTDetails/OctopusDetails.js';
 import Footer from '../components/Footer/Footer';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
@@ -11,7 +12,8 @@ class MintDapp extends Component {
         return (
             <div className="main">
                 <Header />
-                <Mint />
+                <OctopusDetails />
+                <OctopusDapp />
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />

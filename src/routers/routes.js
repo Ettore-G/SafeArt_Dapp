@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Principal from "../themes/principal";
-import Mint from "../themes/mint-your-nft";
+import OcstopusDapp from "../themes/octopusDapp";
 import Roadmap from "../themes/roadmap";
 import Coming from "../themes/coming";
 import NotFound from "../themes/not-found";
@@ -21,7 +21,7 @@ class MyRouts extends React.Component {
             {/* indirizzo che ci serve per vedere i nostri test */}
             <Route exact path="/safearttestdapp" component={Test} />
             <Route exact path="/safearttest2dapp" component={Test2} />
-            <Route path="/mint-your-NFT" component={Mint} />
+            <Route path="/octopusDapp" component={OcstopusDapp} />
             <Route path="/roadmap" component={Roadmap} />
             <Route path="/404" component={NotFound} />
             <Route component={NotFound} />
