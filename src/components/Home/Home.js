@@ -31,7 +31,7 @@ class Hero extends Component {
                                 {/* <WalletCard /> */}
                                 <ul className="navbar-nav action text-center">
                                     <li className="nav-item">
-                                        <a className="btn btn-bordered-white" href="/mint-your-NFT">
+                                        <a className="btn btn-bordered-white" href="/octopusDapp">
                                             Mint your NFT
                                         </a>
                                     <a className="btn btn-bordered-white" href="/mint-your-NFT">

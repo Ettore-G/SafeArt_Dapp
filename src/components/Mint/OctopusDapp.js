@@ -59,7 +59,6 @@ export const StyledRoundButton = styled.button`
 
 export const ResponsiveWrapper = styled.div`
   display: flex;
-  margin-top: 100px;
   flex: 1;
   flex-direction: column;
   justify-content: stretched;
@@ -67,7 +66,6 @@ export const ResponsiveWrapper = styled.div`
   width: 100%;
   @media (min-width: 767px) {
     flex-direction: row;
-    margin-top: 50px;
   }
 `;
 
@@ -204,10 +202,9 @@ function ExploreThree() {
     <s.Screen>
     <s.Container
         flex={1}
-        ai={"center"}
-      >
+        ai={"center"}>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 0 }} test>
 
           <s.Container flex={1} jc={"center"} ai={"center"}>
             
@@ -220,11 +217,9 @@ function ExploreThree() {
             jc={"center"}
             ai={"center"}
             style={{
-              padding: 24,
+              padding: 0,
               borderRadius: 24,
-            }}
-          >
-            <h1>Octopus</h1>
+            }}>
             
             <s.TextTitle
               style={{
@@ -232,8 +227,7 @@ function ExploreThree() {
                 fontSize: 80,
                 fontWeight: "bold",
                 color: "var(--white-color)",
-              }}
-            >
+              }}>
               
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
@@ -242,11 +236,10 @@ function ExploreThree() {
               style={{
                 textAlign: "center",
                 color: "var(--primary-text)",
-              }}
-            >
+              }}>
               
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 20)}
+                {truncate(CONFIG.CONTRACT_ADDRESS, 50)}
               </StyledLink>
               
             </s.TextDescription>

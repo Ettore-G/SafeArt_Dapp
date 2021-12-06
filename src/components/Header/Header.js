@@ -22,7 +22,7 @@ const Header = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link">NFT <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
-                                <li className="nav-item"><Link to="//octopusDapp" className="nav-link">Octopus</Link></li>
+                                <li className="nav-item"><Link to="/octopusDapp" className="nav-link">Octopus</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
