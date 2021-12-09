@@ -383,7 +383,7 @@ function ExploreThree() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "80%", marginBottom:40 }}>
+        {/* <s.Container jc={"center"} ai={"center"} style={{ width: "80%", marginBottom:40 }}>
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -405,7 +405,7 @@ function ExploreThree() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
-        </s.Container>
+        </s.Container> */}
       </s.Container>
     </s.Screen>
   );
