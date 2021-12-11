@@ -99,7 +99,7 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
-function ExploreThree() {
+function OctopusDapp() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
@@ -222,39 +222,34 @@ function ExploreThree() {
             }}>
             
             <s.TextTitle
+              style={{ textAlign: "center",fontSize: 45, color: "var(--primary-p-color)" }}
+            >
+              1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
+              {CONFIG.NETWORK.SYMBOL}.
+            </s.TextTitle>
+
+            <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 80,
+                fontSize: 60,
                 fontWeight: "bold",
-                color: "var(--white-color)",
+                color: "var(--primary-p-color)",
               }}>
               
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                color: "var(--primary-text)",
-              }}>
-              
-              <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 50)}
-              </StyledLink>
-              
-            </s.TextDescription>
             
             <s.SpacerSmall />
             
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--white-color)" }}
+                  style={{ textAlign: "center", color: "var(--primary-p-color)" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--white-color)" }}
+                  style={{ textAlign: "center", color: "var(--primary-p-color)" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -265,15 +260,18 @@ function ExploreThree() {
               </>
             ) : (
               <>
-                <s.TextTitle
-                  style={{ textAlign: "center",fontSize: 45, color: "var(--white-color)" }}
-                >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
-                </s.TextTitle>
+                <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT <i className=" m-3 icon-wallet mr-md-2" />
+                </StyledButton>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center",fontSize: 20, color: "var(--white-color)" }}
+                  style={{ textAlign: "center",fontSize: 20, color: "var(--primary-p-color)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
@@ -284,22 +282,14 @@ function ExploreThree() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--white-color)",
+                        color: "var(--primary-p-color)",
                         fontSize: 20,
                       }}
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT <i className=" m-3 icon-wallet mr-md-2" />
-                    </StyledButton>
+                    
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -307,7 +297,7 @@ function ExploreThree() {
                         <s.TextDescription
                           style={{
                             textAlign: "center",
-                            color: "var(--white-color)",
+                            color: "var(--primary-p-color)",
                           }}
                         >
                           {blockchain.errorMsg}
@@ -320,7 +310,7 @@ function ExploreThree() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--white-color)",
+                        color: "var(--primary-p-color)",
                       }}
                     >
                       {feedback}
@@ -343,7 +333,7 @@ function ExploreThree() {
                       <s.TextDescription
                         style={{
                           textAlign: "center",
-                          color: "var(--white-color)",
+                          color: "var(--primary-p-color)",
                         }}
                       >
                         {mintAmount}
@@ -383,32 +373,9 @@ function ExploreThree() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        {/* <s.Container jc={"center"} ai={"center"} style={{ width: "80%", marginBottom:40 }}>
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-p-color)",
-            }}
-          >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
-          </s.TextDescription>
-          <s.SpacerSmall />
-          <s.TextDescription
-            style={{
-              textAlign: "center",
-              color: "var(--primary-p-color)",
-            }}
-          >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
-          </s.TextDescription>
-        </s.Container> */}
       </s.Container>
     </s.Screen>
   );
 }
 
-export default ExploreThree;
+export default OctopusDapp;
