@@ -231,7 +231,6 @@ function OctopusDapp() {
               {data.totalSupply} of {CONFIG.MAX_SUPPLY}
               <strong> minted</strong>
             </s.TextTitle>
-            
             <s.TextTitle
               style={{ textAlign: "",color: "var(--primary-p-color)" }}
             >
