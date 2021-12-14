@@ -45,8 +45,6 @@ export const StyledRoundButton = styled.button`
   height: 30px;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
@@ -224,17 +222,15 @@ function OctopusDapp() {
             <s.TextTitle
               style={{
                 textAlign: "",
-                fontWeight: "bold",
+                fontWeight: "",
                 color: "var(--primary-p-color)",
               }}>
-              
-              {data.totalSupply} of {CONFIG.MAX_SUPPLY}
-              <strong> minted</strong>
+              {CONFIG.NFT_NAME} ~ {data.totalSupply} of {CONFIG.MAX_SUPPLY}  <strong>minted</strong>
             </s.TextTitle>
             <s.TextTitle
               style={{ textAlign: "",color: "var(--primary-p-color)" }}
             >
-              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} ?
+              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} eth ?
               {/* 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "} */}
               {/* {CONFIG.NETWORK.SYMBOL}. */}
             </s.TextTitle>
@@ -272,7 +268,7 @@ function OctopusDapp() {
                 </StyledButton>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "",fontSize: 20, color: "var(--primary-p-color)" }}
+                  style={{ textAlign: "ce",fontSize: 20, color: "var(--primary-p-color)" }}
                 >
                   Excluding gas fees.
                 </s.TextDescription>
