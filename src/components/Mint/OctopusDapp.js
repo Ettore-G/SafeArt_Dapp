@@ -257,15 +257,6 @@ function OctopusDapp() {
               </>
             ) : (
               <>
-                <StyledButton
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData();
-                      }}
-                    >
-                      CONNECT <i className=" m-3 icon-wallet mr-md-2" />
-                </StyledButton>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "ce",fontSize: 20, color: "var(--primary-p-color)" }}
@@ -286,6 +277,16 @@ function OctopusDapp() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
+                    <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }}
+                    >
+                      CONNECT <i className=" m-3 icon-wallet mr-md-2" />
+                </StyledButton>
+
                     
                     {blockchain.errorMsg !== "" ? (
                       <>
