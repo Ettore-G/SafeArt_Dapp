@@ -13,14 +13,14 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
-                        {nome : "Roos", ruolo : "Co-Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
-                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
-                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
-                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: ""},
-                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
-                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
-                        {nome : "Romina", ruolo : "Supporter", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
+                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/1.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", classcss : "octoprofile-1"},
+                        {nome : "Roos", ruolo : "Co-Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", classcss : "octoprofile-2"},
+                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-3"},
+                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/", classcss : "octoprofile-4"},
+                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "", classcss : "octoprofile-5"},
+                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi", classcss : "octoprofile-6"},
+                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/", classcss : "octoprofile-7"},
+                        {nome : "Romina", ruolo : "Supporter", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo", classcss : "octoprofile-8"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -49,19 +49,19 @@ class Collections extends Component {
                                 <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item">
                                     <div className="card no-hover text-center">
                                         <div className="image-over pt-3">
-                                            <img className="card-img-top" src={item.img} alt="" />
+                                            <img className={item.classcss}  alt="" />
                                         </div>
                                         {/* Card Caption */}
                                         <div className="card-caption col-12 p-0">
                                             {/* Card Body */}
-                                            <div className="card-body mt-4">
+                                            <div className="card-body">
                                                 <a href={item.link} target="_blank">
                                                     <h5 className="mb-2">{item.nome}</h5>
                                                 </a>
                                                 <span>{item.ruolo}</span>
-                                                <div>
-                                                <a className={item.icon} ></a>
-                                                </div>
+                                                <span className="ml-3">
+                                                <a className={item.icon}></a>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
