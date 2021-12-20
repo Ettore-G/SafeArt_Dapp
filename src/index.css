@@ -133,6 +133,21 @@
     max-height: 300px;
     max-width: 300px;
     border-radius: 6px;
-  height: 140px;
-  width: 140px;
+    height: 140px;
+    width: 140px;
 }
+.line{
+  border: 1px solid #F4C70A;
+  width: 1150px;
+  border-radius: 20px;
+  }
+
+@media (max-width: 767px) {
+  .line{
+    margin-left: 40px;
+    border: 1px solid #F4C70A;
+    width: 300px;
+    border-radius: 20px;
+
+    }
+  }
