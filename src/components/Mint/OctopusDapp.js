@@ -45,8 +45,6 @@ export const StyledRoundButton = styled.button`
   height: 30px;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
@@ -115,7 +113,7 @@ function OctopusDapp() {
       ID: 0,
     },
     NFT_NAME: "Octopus",
-    SYMBOL: "",
+    SYMBOL: "?",
     MAX_SUPPLY: 1,
     WEI_COST: 0,
     DISPLAY_COST: 0,
@@ -211,46 +209,46 @@ function OctopusDapp() {
           </s.Container>
           
           <s.SpacerLarge />
-          
+          <div className="line">
           <s.Container
             flex={2}
-            jc={""}
-            ai={""}
+            jc={"center"}
+            ai={"center"}
             style={{
               padding: 0,
               borderRadius: 24,
+              marginTop: 10
             }}>
+
+            
             
             <s.TextTitle
               style={{
                 textAlign: "",
-                fontWeight: "bold",
+                fontWeight: "",
                 color: "var(--primary-p-color)",
               }}>
-              
-              {data.totalSupply} of {CONFIG.MAX_SUPPLY}
-              <strong> minted</strong>
+              {CONFIG.NFT_NAME} ~ {data.totalSupply} of {CONFIG.MAX_SUPPLY}  <strong>minted</strong>
             </s.TextTitle>
             <s.TextTitle
               style={{ textAlign: "",color: "var(--primary-p-color)" }}
             >
-              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} ?
+              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} eth 
               {/* 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "} */}
-              {/* {CONFIG.NETWORK.SYMBOL}. */}
+              {/* {CONFIG.NETWORK.SYMBOL}. ? */}
             </s.TextTitle>
 
-            
             <s.SpacerSmall />
             
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
-                  style={{ textAlign: "", color: "var(--primary-p-color)" }}
+                  style={{ textAlign: "center", color: "var(--primary-p-color)" }}
                 >
                   The sale has ended.
                 </s.TextTitle>
                 <s.TextDescription
-                  style={{ textAlign: "", color: "var(--primary-p-color)" }}
+                  style={{ textAlign: "center", color: "var(--primary-p-color)" }}
                 >
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
@@ -261,7 +259,27 @@ function OctopusDapp() {
               </>
             ) : (
               <>
-                <StyledButton
+                <s.SpacerXSmall />
+                <s.TextDescription
+                  style={{ textAlign: "center",fontSize: 20, color: "var(--primary-p-color)" }}
+                >
+                  Excluding gas fees.
+                </s.TextDescription>
+                <s.SpacerSmall />
+                {blockchain.account === "" ||
+                blockchain.smartContract === null ? (
+                  <s.Container ai={"center"} jc={"center"}>
+                    <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--primary-p-color)",
+                        fontSize: 20,
+                      }}
+                    >
+                      Connect to the {CONFIG.NETWORK.NAME} network
+                    </s.TextDescription>
+                    <s.SpacerSmall />
+                    <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
@@ -270,26 +288,7 @@ function OctopusDapp() {
                     >
                       CONNECT <i className=" m-3 icon-wallet mr-md-2" />
                 </StyledButton>
-                <s.SpacerXSmall />
-                <s.TextDescription
-                  style={{ textAlign: "",fontSize: 20, color: "var(--primary-p-color)" }}
-                >
-                  Excluding gas fees.
-                </s.TextDescription>
-                <s.SpacerSmall />
-                {blockchain.account === "" ||
-                blockchain.smartContract === null ? (
-                  <s.Container ai={""} jc={""}>
-                    <s.TextDescription
-                      style={{
-                        textAlign: "",
-                        color: "var(--primary-p-color)",
-                        fontSize: 20,
-                      }}
-                    >
-                      Connect to the {CONFIG.NETWORK.NAME} network
-                    </s.TextDescription>
-                    <s.SpacerSmall />
+
                     
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -297,7 +296,7 @@ function OctopusDapp() {
                         
                         <s.TextDescription
                           style={{
-                            textAlign: "",
+                            textAlign: "center",
                             color: "var(--primary-p-color)",
                           }}
                         >
@@ -310,7 +309,7 @@ function OctopusDapp() {
                   <>
                     <s.TextDescription
                       style={{
-                        textAlign: "",
+                        textAlign: "center",
                         color: "var(--primary-p-color)",
                       }}
                     >
@@ -318,7 +317,7 @@ function OctopusDapp() {
                     </s.TextDescription>
                     <s.SpacerMedium />
                     
-                    <s.Container ai={""} jc={""} fd={"row"}>
+                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       
                       <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
@@ -333,7 +332,7 @@ function OctopusDapp() {
                       <s.SpacerMedium />
                       <s.TextDescription
                         style={{
-                          textAlign: "",
+                          textAlign: "center",
                           color: "var(--primary-p-color)",
                         }}
                       >
@@ -351,7 +350,7 @@ function OctopusDapp() {
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
-                    <s.Container ai={""} jc={""} fd={"row"}>
+                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
                       <StyledButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
@@ -369,8 +368,9 @@ function OctopusDapp() {
             )}
             <s.SpacerMedium />
           </s.Container>
+          </div>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={""} ai={""}>
+          <s.Container flex={1} jc={"center"} ai={"center"}>
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
