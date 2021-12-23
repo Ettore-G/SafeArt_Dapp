@@ -1925,9 +1925,13 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .hero-section{
   position: relative;
-
   z-index: 1;
-  /* height: 25vh !important; */
+}
+
+.notfoundpage{
+  position: relative;
+  min-height: 80vh;
+  z-index: 1;
 }
 
 
@@ -3543,7 +3547,6 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
   overflow: hidden;
 }
 
@@ -3571,7 +3574,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 @media screen and (max-width: 720px) {
   .custom-text-coming{
-    font-size: 70px;
+    font-size: 50px;
   }
 
 }

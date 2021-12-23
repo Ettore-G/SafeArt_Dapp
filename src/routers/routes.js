@@ -18,7 +18,6 @@ class MyRouts extends React.Component {
           <Switch>
             {/* <Route exact path="/" component={Principal} /> decommentare questo il giorno del uscita */}
             <Route exact path="/" component={Coming} />
-            {/* indirizzo che ci serve per vedere i nostri test */}
             <Route exact path="/safearttestdapp" component={Test} />
             <Route exact path="/safearttest2dapp" component={Test2} />
             <Route path="/octopusDapp" component={OcstopusDapp} />
