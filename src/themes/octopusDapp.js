@@ -4,6 +4,7 @@ import OctopusDapp from './../components/Mint/OctopusDapp';
 import OctopusDetails from './../components/NFTDetails/OctopusDetails.js';
 import OctopusDetails2 from './../components/NFTDetails/OctopusDetails2.js';
 import OctopusDetails3 from './../components/NFTDetails/OctopusDetails3.js';
+import OctopusDetails4 from './../components/NFTDetails/OctopusDetails4.js';
 import Footer from '../components/Footer/Footer';
 import ModalSearch from '../components/Modal/ModalSearch';
 import ModalMenu from '../components/Modal/ModalMenu';
@@ -18,6 +19,7 @@ class MintDapp extends Component {
                 <OctopusDapp />
                 <OctopusDetails2 />
                 <OctopusDetails3 />
+                <OctopusDetails4 />
                 <Footer />
                 <ModalSearch />
                 <ModalMenu />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const initData = {
-    itemImg: "/img/gif/image.gif",
+    itemImg: "/img/Octopus/10.png",
     date: "2022-03-30",
     tab_1: "Description",
     tab_2: "Properties",
@@ -31,7 +31,7 @@ class ItemDetails extends Component {
                     <div className="row justify-content-between">
                         <div className="col-md-5 col-xs-12">
                             <div className="item-info">
-                                <div className="item-thumb text-center mt-4">
+                                <div className="item-thumb text-center mt-5">
                                     <img src={this.state.initData.itemImg} alt="" />
                                 </div>
                             </div>
