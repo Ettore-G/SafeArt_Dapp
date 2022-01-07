@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xB2dE8930f3Bc438B5B0E615C29f61ABc5A9884dC",
+  "CONTRACT_ADDRESS": "0xF346Ec2a2f032468a37EDf87487910B2FF2Bf8b8",
   "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xDA672E10a0cf663101d951AEaE9F7CDA372B4C1f",
   "NETWORK": {
-    "NAME": "Ethereum",
-    "SYMBOL": "ETH",
-    "ID": 4
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 80001
   },
   "NFT_NAME": "SafeArtTest",
   "SYMBOL": "SAF",
   "MAX_SUPPLY": 50,
   "WEI_COST": 10000000000000000,
-  "DISPLAY_COST": 0.01,
+  "DISPLAY_COST": 0.0001,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/safeart",

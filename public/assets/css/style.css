@@ -4374,3 +4374,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .homepage-centro{
   text-align: center;
 }
+
+.text-octopus{
+  font-size: 17px;
+}
