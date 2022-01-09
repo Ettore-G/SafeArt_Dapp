@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const initData = {
     pre_heading: "How it works",
     heading: "SafeArt",
-    text: "Safeart.io is a new platform based on the release of NFT collections inspired by the history of art but in a futuristic reinterpretation.",
+    text: "Safeart.io E? una piattaforma che rilascia opere artistiche Ricompensando i propri membri con    Rilasci personalizzati e token utility che serviranno in futuro per promozioni sconti e nuovi sviluppi Safeart.io crede nell arte di qualità e la vuole rendere eterna sulla blockchain",
     btnText: "View All",
     heading1: "SafeArt",
     text1: "Noi, ideatori di safeart.io, crediamo fortemente che il futuro dell'arte sia digitale, sia per quanto riguarda le nuove opere, che per quelle realizzate dai piu' grandi artisti del passato, quelli che per l'appunto hanno fatto la storia dell'arte. È nostro dovere come essere umani preservare e custodire le opere d'arte digitalizzandole e rendendole immortali sulla blockchain."

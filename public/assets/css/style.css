@@ -4378,3 +4378,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .text-octopus{
   font-size: 17px;
 }
+
+.text-roadmap{
+  color: var(--secondary-color);
+}
