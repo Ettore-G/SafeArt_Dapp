@@ -30,7 +30,7 @@ class Collections extends Component {
     }
     render() {
         return (
-            <section className="popular-collections-area" id="staff">
+            <section className="popular-collections-area" id="team">
                 <div className="container">
                     <div id="staff"className="row">
                         <div className="col-12">

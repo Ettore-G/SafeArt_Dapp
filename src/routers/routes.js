@@ -5,7 +5,7 @@ import OcstopusDapp from "../themes/octopusDapp";
 import Roadmap from "../themes/roadmap";
 import Coming from "../themes/coming";
 import NotFound from "../themes/not-found";
-import Test from "../themes/test";
+import Home from "../themes/test";
 import Test2 from "../themes/test2";
 
 
@@ -16,10 +16,9 @@ class MyRouts extends React.Component {
       <div>
         <Router>
           <Switch>
-            {/* <Route exact path="/" component={Principal} /> decommentare questo il giorno del uscita */}
-            <Route exact path="/" component={Coming} />
-            <Route exact path="/safearttestdapp" component={Test} />
-            <Route exact path="/safearttest2dapp" component={Test2} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/safearttestdapp" component={Coming} />
+            {/* <Route exact path="/safearttest2dapp" component={Test2} /> */}
             <Route path="/octopusDapp" component={OcstopusDapp} />
             <Route path="/roadmap" component={Roadmap} />
             <Route path="/404" component={NotFound} />

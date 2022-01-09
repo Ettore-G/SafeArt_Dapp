@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
 import OctopusDapp from './../components/Mint/OctopusDapp';
+import OctopusDappComing from './../components/Mint/OctopusDappComing';
 import OctopusDetails from './../components/NFTDetails/OctopusDetails.js';
 import OctopusDetails2 from './../components/NFTDetails/OctopusDetails2.js';
 import OctopusDetails3 from './../components/NFTDetails/OctopusDetails3.js';
@@ -16,7 +17,8 @@ class MintDapp extends Component {
             <div className="main">
                 <Header />
                 <OctopusDetails />
-                <OctopusDapp />
+                {/* <OctopusDapp /> */}
+                <OctopusDappComing />
                 <OctopusDetails2 />
                 <OctopusDetails3 />
                 <OctopusDetails4 />

@@ -42,11 +42,11 @@ class Hero extends Component {
                                 
                             </div>
                             <div className="social-icons d-flex py-4 justify-content-center">
-                                <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
+                                <a key="1" className="Discord" href="https://discord.gg/a6857DZXRK"target="_blank">
                                     <i className="fab fa-discord" />
                                     <i className="fab fa-discord" />
                                 </a>
-                                <a key="2" className="Discord" href="https://twitter.com/Safee_Art"target="_blank">
+                                <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
                                 </a>

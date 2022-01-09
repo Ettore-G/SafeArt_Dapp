@@ -3,10 +3,8 @@ import React, { Component } from 'react';
 const initData = {
     pre_heading: "How it works",
     heading: "SafeArt",
-    text: "Safeart.io E? una piattaforma che rilascia opere artistiche Ricompensando i propri membri con    Rilasci personalizzati e token utility che serviranno in futuro per promozioni sconti e nuovi sviluppi Safeart.io crede nell arte di qualità e la vuole rendere eterna sulla blockchain",
-    btnText: "View All",
-    heading1: "SafeArt",
-    text1: "Noi, ideatori di safeart.io, crediamo fortemente che il futuro dell'arte sia digitale, sia per quanto riguarda le nuove opere, che per quelle realizzate dai piu' grandi artisti del passato, quelli che per l'appunto hanno fatto la storia dell'arte. È nostro dovere come essere umani preservare e custodire le opere d'arte digitalizzandole e rendendole immortali sulla blockchain."
+    text: "Safeart.io is a platform that releases artistic works and, rewards its members with custom releases and utility tokens that can be used for promotions, discounts, and new developments in the future. We appreciate quality art that comes from our soul, mind and, hard work,  and we want this to make everlasting on the blockchain.",
+    text1: "We, the creators of safeart.io, strongly believe that the future of art is digital, both for newborn arts and for those created by the greatest artists of the past, those who have made art history. It is our responsibility as humans to preserve and cherish the works of art by digitizing and immortalizing them on the blockchain."
 }
 
 

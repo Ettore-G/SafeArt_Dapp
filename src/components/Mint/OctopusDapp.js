@@ -233,7 +233,7 @@ function OctopusDapp() {
             <s.TextTitle
               style={{ textAlign: "",color: "var(--primary-p-color)" }}
             >
-              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} eth 
+              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} MATIC 
               {/* 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "} */}
               {/* {CONFIG.NETWORK.SYMBOL}. ? */}
             </s.TextTitle>

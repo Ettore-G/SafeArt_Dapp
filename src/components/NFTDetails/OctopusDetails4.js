@@ -74,13 +74,13 @@ class ItemDetails extends Component {
                             {/* Content */}
                             <div className="cointainer">
                                 <div className="row">
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 mt-3">
                                         <img src={this.state.initData.itemImg1} alt="" />
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 mt-3">
                                         <img src={this.state.initData.itemImg2} alt="" />
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-md-4 mt-3">
                                         <img src={this.state.initData.itemImg3} alt="" />
                                     </div>
                                 </div>

@@ -11,46 +11,46 @@ const data = [
         id: "1",
         btnClass: "btn d-block text-left w-100 py-4",
         target: "#collapseOne",
-        quote: "What are the benefits of owning one??",
+        quote: "What are the benefits of owning one?",
         contentId: "collapseOne",
         contentClass: "collapse show",
-        content: "Each NFT hodler will be rewarded with the privilege of being included in the whitelist and participating in drops with additional NFTs never seen on the market and Token comunity. This reward will be given every month."
+        content: "Each NFT hodler will be rewarded with the privilege of being included in the whitelist and participating in drops with additional NFTs never seen on the market and Token comunity."
     },
     {
         id: "2",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseTwo",
-        quote: "Where can I see transaction of wallet's comunity?",
+        quote: "Why Polygon?",
         contentId: "collapseTwo",
         contentClass: "collapse",
-        content: "The comunity wallet transactions can be viewed at the following etherscan link: "
+        content: "Ethereum gas fees fluctuate greatly. Massive spikes in the cost of gas occur during times of high demand for resources on the Ethereum blockchain. When cost is a factor, Polygon is the choice of chain to mint new NFTs. The Ethereum 2.0 upgrade will massively reduce these transaction fees eventually, and make the network more usable."
     },
     {
         id: "3",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseThree",
-        quote: "Is the art randomly generated",
+        quote: "Is the art randomly assigned?",
         contentId: "collapseThree",
         contentClass: "collapse",
-        content: "Each of our works is randomly generated, even for mint, the possibility of finding a rare piece is equal for everyone."
+        content: "Each of our works is randomly assigned. Even for mint, the possibility of finding a rare piece is equal for everyone."
     },
     {
         id: "4",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFour",
-        quote: "How can I mint this SafeArt!?",
+        quote: "How can I mint this SafeArt?",
         contentId: "collapseFour",
         contentClass: "collapse",
-        content: "Simply by owning a metamask wallet and connecting to our mint page, the smart contract will take care of the rest."
+        content: "Simply by owning a metamask wallet and connecting to our mint page and the smart contract will take care of the rest."
     },
     {
         id: "5",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFive",
-        quote: "How much will it cost to mint?",
+        quote: "Will I become an artist owning one?",
         contentId: "collapseFive",
         contentClass: "collapse",
-        content: "It will cost 0.055 ETH + FEE."
+        content: "Absolutely yes ;)"
     }
 ]
 
@@ -67,7 +67,7 @@ class Faq extends Component {
     }
     render() {
         return (
-            <section className="faq-area pt-0">
+            <section className="faq-area pt-0" id="faq-area">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-8 col-lg-7">
