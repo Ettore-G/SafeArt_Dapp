@@ -29,7 +29,7 @@ class Hero extends Component {
                                 <ul className="navbar-nav action text-center">
                                     <li className="nav-item">
                                         <a className="btn btn-bordered-white" href="/octopusDapp">
-                                            Mint your NFT
+                                            Mint OCTOPUS
                                         </a>
                                         {/* <a className="btn btn-bordered-white" href="/mint-your-NFT">
                                             Buy on UniSwap
