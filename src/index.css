@@ -1,6 +1,6 @@
 /* lasciare qui vuoto */
 .octopus-1{
-    background-image: url("/img/Octopus/nice1.jpg");
+    background-image: url('./img/Octopus/1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
