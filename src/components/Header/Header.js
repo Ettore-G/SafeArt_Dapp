@@ -34,6 +34,9 @@ const Header = () => {
                         <li className="nav-item">
                             <a href="/#faq-area" className="nav-link">Faq</a>
                         </li>
+                        <li className="nav-item">
+                            <a href="/safeartclub" className="nav-link">SafeArt Club</a>
+                        </li>
                     </ul>
                     {/* Navbar Toggler */}
                     <ul className="navbar-nav toggle">

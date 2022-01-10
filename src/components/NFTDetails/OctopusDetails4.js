@@ -22,6 +22,12 @@ const initData = {
 
     title6: "Further information",
     text6:"The code to numerically simulate the water flow is written using the Python FEniCS library [3]. The results are then processed with the Paraview application [4]. The code to generate the collection is written using Python.",
+
+    title7: "References",
+    text7:"[1]https://www.youtube.com/watch?v=XoefjJdFq6k",
+    text8:"[2]https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations ",
+    text9:"[3]Documentation https://fenicsproject.org/documentation/",
+    text10:"[4]https://www.paraview.org/",
 }
 
 class ItemDetails extends Component {
@@ -38,7 +44,21 @@ class ItemDetails extends Component {
             <section className="item-details-area">
                 <div className="container">
                     <div className="row justify-content-between">
-                        <div className="col-12 col-lg-12">
+
+                    <div className=" col-md-4">
+                            {/* Content */}
+                            <div className="content">
+                                <h2 className="m-0 text-center">{this.state.initData.title2}</h2>
+                                <p className="text-octopus">{this.state.initData.text2}</p>
+                            </div>
+                        </div>
+                        
+
+                        <div className="col-md-4 mt-3">
+                            <img src={this.state.initData.itemImg1} alt="" />
+                        </div>
+
+                        <div className="col-md-4 mt-3">
                             {/* Content */}
                             <div className="content">
                                 <h2 className="m-0 text-center">{this.state.initData.title1}</h2>
@@ -46,48 +66,32 @@ class ItemDetails extends Component {
                             </div>
                         </div>
 
-                        <div className="col-12 col-lg-12 mt-5">
-                            {/* Content */}
-                            <div className="content">
-                                <h2 className="m-0 text-center">{this.state.initData.title2}</h2>
-                                <p className="text-octopus">{this.state.initData.text2}</p>
-                            </div>
+
+                        <div className="col-md-4 mt-3 mt-5">
+                            <img src={this.state.initData.itemImg2} alt="" />
                         </div>
 
-                        <div className="col-12 col-lg-12 mt-5">
+                        <div className=" col-md-4 mt-5">
                             {/* Content */}
-                            <div className="content">
-                                <h2 className="m-0 text-center">{this.state.initData.title3}</h2>
-                                <p className="text-octopus">{this.state.initData.text3}</p>
-                            </div>
-                        </div>
-
-                        <div className="col-12 col-lg-12 mt-5">
-                            {/* Content */}
-                            <div className="content">
-                                <h2 className="m-0 text-center">{this.state.initData.title4}</h2>
-                                <p className="text-octopus">{this.state.initData.text4}</p>
-                            </div>
-                        </div>
-
-                        <div className="col-12 col-lg-12 mt-5">
-                            {/* Content */}
-                            <div className="cointainer">
-                                <div className="row">
-                                    <div className="col-md-4 mt-3">
-                                        <img src={this.state.initData.itemImg1} alt="" />
-                                    </div>
-                                    <div className="col-md-4 mt-3">
-                                        <img src={this.state.initData.itemImg2} alt="" />
-                                    </div>
-                                    <div className="col-md-4 mt-3">
-                                        <img src={this.state.initData.itemImg3} alt="" />
+                            <div className='row'>
+                                <div className='col-12'>
+                                    <div className="content">
+                                        <h2 className="m-0 text-center">{this.state.initData.title4}</h2>
+                                        <p className="text-octopus">{this.state.initData.text4}</p>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                                <div className='col-12 mt-3'>
+                                    <div className="content">
+                                        <h2 className="m-0 text-center">{this.state.initData.title3}</h2>
+                                        <p className="text-octopus">{this.state.initData.text3}</p>
+                                    </div>
+                                </div>
 
-                        <div className="col-12 col-lg-12 mt-5">
+                            </div>
+                        </div>                   
+
+
+                        <div className=" col-md-4 mt-5">
                             {/* Content */}
                             <div className="content">
                                 <h2 className="m-0 text-center">{this.state.initData.title5}</h2>
@@ -95,13 +99,30 @@ class ItemDetails extends Component {
                             </div>
                         </div>
 
-                        <div className="col-12 col-lg-12 mt-5">
+                        <div className=" col-md-4 mt-5">
                             {/* Content */}
                             <div className="content">
                                 <h2 className="m-0 text-center">{this.state.initData.title6}</h2>
                                 <p className="text-octopus">{this.state.initData.text6}</p>
                             </div>
                         </div>
+
+
+                        <div className="col-md-4 mt-3 mt-5">
+                            <img src={this.state.initData.itemImg3} alt="" />
+                        </div>
+
+                        <div className=" col-md-4 mt-5">
+                            <div className="content">
+                                <h2 className="m-0 text-center">{this.state.initData.title7}</h2>
+                                <p className="text-octopus">{this.state.initData.text7}</p>
+                                <p className="text-octopus">{this.state.initData.text8}</p>
+                                <p className="text-octopus">{this.state.initData.text9}</p>
+                                <p className="text-octopus">{this.state.initData.text10}</p>
+                            </div>
+                            
+                        </div>
+
 
                     </div>
                 </div>

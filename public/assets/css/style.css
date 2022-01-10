@@ -4389,3 +4389,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .intro-content {
   font-size: 30px;
 }
+
+.color-primary{
+  color: var(--primary-color)
+}
