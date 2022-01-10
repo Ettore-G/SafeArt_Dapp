@@ -17,7 +17,7 @@ const Header = () => {
                     {/* Navbar */}
                     <ul className="navbar-nav items mx-auto">
                         <li className="nav-item ">
-                        <Link to="/" className="nav-link" >Home</Link>
+                        <a href="/" className="nav-link" >Home</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link">NFT <i className="fas fa-angle-down ml-1" /></a>
@@ -29,10 +29,10 @@ const Header = () => {
                             <Link to="/roadmap" className="nav-link">Roadmap</Link>
                         </li> */}
                         <li className="nav-item">
-                            <a href="#team" className="nav-link">Team</a>
+                            <a href="/#team" className="nav-link">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#faq-area" className="nav-link">Faq</a>
+                            <a href="/#faq-area" className="nav-link">Faq</a>
                         </li>
                     </ul>
                     {/* Navbar Toggler */}
