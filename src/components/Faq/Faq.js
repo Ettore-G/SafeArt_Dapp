@@ -72,7 +72,7 @@ class Faq extends Component {
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-8 col-lg-7">
                             {/* Intro */}
-                            <div className="intro text-center">
+                            <div className="intro-content text-center">
                                 <span>{this.state.initData.pre_heading}</span>
                                 <h3 className="mt-3 mb-0">{this.state.initData.heading}</h3>
                                 <p>{this.state.initData.content}</p>
