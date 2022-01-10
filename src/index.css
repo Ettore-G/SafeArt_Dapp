@@ -49,26 +49,23 @@
 }
 
 .octoprofile-1{
-    background-image: url('./img/Octopus/1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-    height: 140px;
-    width: 140px;
+  background-image: url('./img/Octopus/1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  border: none !important;
 }
 .octoprofile-2{
-    background-image: url('./img/Octopus/2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
+  background-image: url('./img/Octopus/2.png');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  /* border-radius: 6px; */
   height: 140px;
   width: 140px;
+  border: none !important;
 }
 .octoprofile-3{
     background-image: url('./img/Octopus/3.png');

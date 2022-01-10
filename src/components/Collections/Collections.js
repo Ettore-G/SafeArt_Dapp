@@ -15,7 +15,7 @@ class Collections extends Component {
                     data: [
                         {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/1.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", classcss : "octoprofile-1"},
                         {nome : "Roos", ruolo : "Co-Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", classcss : "octoprofile-2"},
-                        {nome : "Ettore", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-3"},
+                        {nome : "Ettore", ruolo : " Blockchain Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-3"},
                         {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/", classcss : "octoprofile-4"},
                         {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "", classcss : "octoprofile-5"},
                         {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi", classcss : "octoprofile-6"},
