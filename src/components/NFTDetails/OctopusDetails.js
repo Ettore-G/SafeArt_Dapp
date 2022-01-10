@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const initData = {
-    itemImg: "/img/Octopus/10.png",
+    itemImg: "/img/Octopus/Info/introduction.png",
     date: "2022-03-30",
     tab_1: "Description",
     tab_2: "Properties",
