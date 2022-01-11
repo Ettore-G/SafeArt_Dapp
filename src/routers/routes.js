@@ -18,11 +18,11 @@ class MyRouts extends React.Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/safearttestdapp" component={Coming} />
+            {/* <Route exact path="/safearttestdapp" component={Coming} /> */}
             {/* <Route exact path="/safearttest2dapp" component={Test2} /> */}
             <Route path="/octopusDapp" component={OcstopusDapp} />
-            <Route path="/safeartclub" component={SafeArtClub} />
-            <Route path="/roadmap" component={Roadmap} />
+            {/* <Route path="/safeartclub" component={SafeArtClub} /> */}
+            {/* <Route path="/roadmap" component={Roadmap} /> */}
             <Route path="/404" component={NotFound} />
             <Route component={NotFound} />
           </Switch>

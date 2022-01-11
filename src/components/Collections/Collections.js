@@ -13,14 +13,14 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/1.png", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", classcss : "octoprofile-1"},
-                        {nome : "Roos", ruolo : "Co-Founder", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", classcss : "octoprofile-2"},
-                        {nome : "Ettore", ruolo : " Blockchain Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-3"},
-                        {nome : "Antonio", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/", classcss : "octoprofile-4"},
-                        {nome : "Federica", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "", classcss : "octoprofile-5"},
-                        {nome : "Aysu", ruolo : "Developer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi", classcss : "octoprofile-6"},
-                        {nome : "Denise", ruolo : "Graphic Designer", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/", classcss : "octoprofile-7"},
-                        {nome : "Romina", ruolo : "Supporter", img: "https://upload.wikimedia.org/wikipedia/commons/5/50/Smile_Image.png", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo", classcss : "octoprofile-8"},
+                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", classcss : "octoprofile-1"},
+                        {nome : "Roos", ruolo : "Co-Founder", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", classcss : "octoprofile-1"},
+                        {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-1"},
+                        {nome : "Antonio", ruolo : "Dev", img: "./img/Octopus/nice3.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/", classcss : "octoprofile-1"},
+                        {nome : "Federica", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "", classcss : "octoprofile-1"},
+                        {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi", classcss : "octoprofile-1"},
+                        {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/", classcss : "octoprofile-1"},
+                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo", classcss : "octoprofile-1"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -47,9 +47,9 @@ class Collections extends Component {
                         {this.state.data.map((item, idx) => {
                             return (
                                 <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item">
-                                    <div className="card no-hover text-center">
+                                    <div className="card no-r text-center">
                                         <div className="image-over pt-3">
-                                            <img className={item.classcss}  alt="" />
+                                            <img src={item.img} classname="octoprofile-1"  alt="" />
                                         </div>
                                         {/* Card Caption */}
                                         <div className="card-caption col-12 p-0">

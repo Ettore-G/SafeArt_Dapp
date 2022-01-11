@@ -25,7 +25,7 @@ class ItemDetails extends Component {
                                 <img src={this.state.initData.itemImg1} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-6 col-xs-12">
+                        <div className="col-md-6 col-xs-12 dapp-octopus">
                             {/* Content */}
                             <div className="content">
                                 <img src={this.state.initData.itemImg} alt="" />

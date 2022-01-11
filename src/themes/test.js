@@ -19,7 +19,7 @@ class ThemeOne extends Component {
                 <Home />
                 <Collection />
                 <HowItWorks />
-                <SafeArtClub />
+                {/* <SafeArtClub /> */}
                 <Faq />
                 <Staff />
                 <Footer />
