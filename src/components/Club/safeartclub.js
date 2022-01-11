@@ -32,7 +32,7 @@ const data = [
     },
     {
         id: "5",
-        icon: "icon fas fa-volume-up text-effect color-primary",
+        icon: "icon far fa-handshake text-effect color-primary",
         title: "Talk to artists",
         content: "Learn how you can partner with us to showcase your NFT drops"
     },
@@ -75,28 +75,27 @@ class SafeArtClub extends Component {
     }
     render() {
         return (
-            <section className="help-center-area">
+            <section className="help-center-area" id="safeclub">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-md-8 col-lg-7">
+                    <div className="row">
+                        <div className="col-md-12">
                             {/* Intro */}
-                            <div className="intro text-center">
+                            <div className="intro">
                                 <span>{this.state.initData.pre_heading}</span>
-                                <h3 className="mt-3 mb-0">{this.state.initData.heading}</h3>
-                                <p>{this.state.initData.content}</p>
+                                <p>If you become an owner of SafeArt's NFT you will granted the access to the club</p>
                             </div>
                         </div>
                     </div>
                     <div className="row justify-content-center items">
                         {this.state.data.map((item, idx) => {
                             return (
-                                <div key={`hd_${idx}`} className="col-12 col-md-6 col-lg-4 item">
+                                <div key={`hd_${idx}`} className="col-md-4 item">
                                     {/* Help Card */}
                                     <div className="card help-card">
                                         <a className="d-block text-center">
                                             <i className={item.icon} />
                                             <h4>{item.title}</h4>
-                                            <p>{item.content}</p>
+                                            {/* <p>{item.content}</p> */}
                                         </a>
                                     </div>
                                 </div>

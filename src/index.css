@@ -8,7 +8,15 @@
 
 .octoprofile-1{
   border-radius: 5px;
+  width: 175px;
 }
+@media (max-width: 767px) {
+  .octoprofile-1{
+    border-radius: 5px;
+    width: 250px;
+  }
+  }
+
 .line{
   border: 1px solid #F4C70A;
   width: 1150px;
@@ -25,9 +33,16 @@
     }
   }
 
+  .dapp-octopus1{
+    margin-top: 30px;
+  }
 
-  @media (max-width: 767px) {
-    .dapp-octopus{
-        margin-top: 50px;
-      }
+@media (max-width: 767px) {
+  .dapp-octopus{
+      margin-top: 20px;
     }
+  }
+
+.img-homepage{
+  width: 500px;  
+}

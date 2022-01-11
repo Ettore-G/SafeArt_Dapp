@@ -20,7 +20,6 @@ class MintDapp extends Component {
                 {/* <OctopusDapp /> */}
                 <OctopusDappComing />
                 <OctopusDetails2 />
-                <OctopusDetails3 />
                 <OctopusDetails4 />
                 <Footer />
                 <ModalSearch />

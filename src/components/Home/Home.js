@@ -20,7 +20,8 @@ class Hero extends Component {
                 <div className="container-fluid">
                     <div  id="home"className="row align-items-center xs-column-reverse mt-5">
                         <div className="col-12 col-md-12 col-xs-12 homepage-centro">
-                            <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1>
+                            <img src="/img/homepage.png" class="img-homepage mt-5"></img>
+                            {/* <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1> */}
                             {/* <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p> */}
 

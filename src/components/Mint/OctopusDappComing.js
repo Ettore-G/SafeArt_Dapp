@@ -10,8 +10,8 @@ class Activity extends Component {
         return (
             <div className="container">
                 <div className="row">
-                  <div className="col-md-12 text-center">
-                    <h1>Mint coming soon ;)</h1>
+                  <div className="col-md-12 text-center ">
+                    <h1 className="color-primary">Mint coming soon ;)</h1>
                   </div>
               </div>
             </div>

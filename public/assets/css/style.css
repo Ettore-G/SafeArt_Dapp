@@ -2627,8 +2627,8 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .help-center-area .card {
-  padding: 45px;
-  min-height: 300px;
+  /* padding: 45px; */
+  /* min-height: 200px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3585,10 +3585,6 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 .custom-text-height {
   font-size: 100px;
-  color: var(--primary-color) !important;
-  font-family: 'Lovelo-LineBold';
-  letter-spacing : 2px;
-  text-shadow: 5px -5px 0px rgba(221, 207, 129, 0.76);
 }
 .custom-text-height-p {
   font-size: 900px;
