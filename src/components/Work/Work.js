@@ -70,11 +70,10 @@ class Faq extends Component {
             <section className="faq-area pt-0" id="faq-area">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-8 col-lg-7">
+                        <div className="col-md-8 col-lg-12">
                             {/* Intro */}
-                            <div className="intro text-center">
+                            <div className="intro">
                                 <span>{this.state.initData.pre_heading}</span>
-                                <h1 className="mt-3 mb-0">{this.state.initData.heading} </h1>
                             </div>
                         </div>
                     </div>

@@ -13,14 +13,14 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", classcss : "octoprofile-1"},
-                        {nome : "Roos", ruolo : "Co-Founder", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", classcss : "octoprofile-1"},
-                        {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", classcss : "octoprofile-1"},
-                        {nome : "Antonio", ruolo : "Dev", img: "./img/Octopus/nice3.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/", classcss : "octoprofile-1"},
-                        {nome : "Federica", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "", classcss : "octoprofile-1"},
-                        {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi", classcss : "octoprofile-1"},
-                        {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/", classcss : "octoprofile-1"},
-                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo", classcss : "octoprofile-1"},
+                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
+                        {nome : "Roos", ruolo : "Co-Founder", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
+                        {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
+                        {nome : "Antonio", ruolo : "Dev", img: "./img/Octopus/nice3.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
+                        {nome : "Federica", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: ""},
+                        {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
+                        {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
+                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -49,7 +49,7 @@ class Collections extends Component {
                                 <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item">
                                     <div className="card no-r text-center">
                                         <div className="image-over pt-3">
-                                            <img src={item.img} classname="octoprofile-1"  alt="" />
+                                            <img class="octoprofile-1" src={item.img}   alt="" />
                                         </div>
                                         {/* Card Caption */}
                                         <div className="card-caption col-12 p-0">
