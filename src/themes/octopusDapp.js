@@ -17,7 +17,7 @@ class MintDapp extends Component {
             <div className="main">
                 <Header />
                 <OctopusDetails />
-                <OctopusDapp />
+                {/* <OctopusDapp /> */}
                 <OctopusDappComing />
                 <OctopusDetails2 />
                 <OctopusDetails3 />

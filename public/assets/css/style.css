@@ -18,6 +18,7 @@
 ----------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
 /*----------------------------------------------
 
 [ALL CONTENTS]
@@ -3585,7 +3586,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .custom-text-height {
   font-size: 100px;
   color: var(--primary-color) !important;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lovelo-LineBold';
   letter-spacing : 2px;
   text-shadow: 5px -5px 0px rgba(221, 207, 129, 0.76);
 }
