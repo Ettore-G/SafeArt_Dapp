@@ -27,7 +27,7 @@ const data = [
     {
         id: "4",
         icon: "icon fas fa-mountain text-effect color-primary",
-        title: "Acces to our land",
+        title: "Access to our land",
         content: "Learn how list your NFTs for sale and understand the different "
     },
     {
@@ -45,7 +45,7 @@ const data = [
     {
         id: "7",
         icon: "icon fas fa-paint-brush text-effect color-primary ",
-        title: "Became an artist",
+        title: "Become an artist",
         content: "Learn how list your NFTs for sale and understand the  list your NFTs"
     },
     {
@@ -82,7 +82,7 @@ class SafeArtClub extends Component {
                             {/* Intro */}
                             <div className="intro">
                                 <span>{this.state.initData.pre_heading}</span>
-                                <p>If you become an owner of SafeArt's NFT you will granted the access to the club</p>
+                                <p>If you become an owner of SafeArt's NFT you will have granted the access to the club</p>
                             </div>
                         </div>
                     </div>

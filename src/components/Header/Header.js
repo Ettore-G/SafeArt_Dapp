@@ -29,13 +29,13 @@ const Header = () => {
                             <Link to="/roadmap" className="nav-link">Roadmap</Link>
                         </li> */}
                         <li className="nav-item">
-                            <a href="/#team" className="nav-link">Team</a>
+                            <a href="/#safeclub" className="nav-link">SafeArt Club</a>
                         </li>
                         <li className="nav-item">
                             <a href="/#faq-area" className="nav-link">Faq</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/#safeclub" className="nav-link">SafeArt Club</a>
+                            <a href="/#team" className="nav-link">Team</a>
                         </li>
                     </ul>
                     {/* Navbar Toggler */}

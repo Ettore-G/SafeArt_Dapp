@@ -17,7 +17,7 @@ class Collections extends Component {
                         {nome : "Roos", ruolo : "Co-Founder", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
                         {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
                         {nome : "Antonio", ruolo : "Dev", img: "./img/Octopus/nice3.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
-                        {nome : "Edef", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: ""},
+                        {nome : "Edef", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "https://twitter.com/___edef___"},
                         {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
                         {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
                         {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
