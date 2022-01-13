@@ -14,13 +14,12 @@ class Collections extends Component {
                 this.setState({
                     data: [
                         {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
-                        {nome : "Roos", ruolo : "Co-Founder", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
+                        {nome : "Roos", ruolo : "Co-Founder",ruolo1 : "Blockchain Dev", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
                         {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
-                        {nome : "Antonio", ruolo : "Dev", img: "./img/Octopus/nice3.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/antonio-maiorano17/"},
                         {nome : "Edef", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "https://twitter.com/___edef___"},
                         {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
                         {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
-                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
+                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice3.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -43,11 +42,11 @@ class Collections extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row items">
+                    <div className="row items justify-content-center">
                         {this.state.data.map((item, idx) => {
                             return (
                                 <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item">
-                                    <div className="card no-r text-center">
+                                    <div className="card no-r text-center staff-card">
                                         <div className="image-over pt-3">
                                             <img class="octoprofile-1" src={item.img}   alt="" />
                                         </div>
@@ -62,6 +61,8 @@ class Collections extends Component {
                                                 <span className="ml-3">
                                                 <a className={item.icon}></a>
                                                 </span>
+                                                <br></br>
+                                                <span>{item.ruolo1}</span>
                                             </div>
                                         </div>
                                     </div>

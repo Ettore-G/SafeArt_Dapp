@@ -4394,3 +4394,12 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 .color-primary{
   color: var(--primary-color)
 }
+
+.staff-card{
+  max-height: 335px;
+}
+@media (max-width: 767px) {
+  .staff-card{
+    max-height: 425px;
+  }
+  }
