@@ -17,19 +17,25 @@ const Header = () => {
                     {/* Navbar */}
                     <ul className="navbar-nav items mx-auto">
                         <li className="nav-item ">
-                        <Link to="/" className="nav-link" >Home</Link>
+                        <a href="/" className="nav-link" >Home</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link">NFT <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
-                                <li className="nav-item"><Link to="/octopusDapp" className="nav-link">Octopus</Link></li>
+                                <li className="nav-item"><a href="/octopusDapp" className="nav-link">Octopus</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to="/roadmap" className="nav-link">Roadmap</Link>
+                        </li> */}
+                        <li className="nav-item">
+                            <a href="/#safeclub" className="nav-link">SafeArt Club</a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://docs.google.com/document/d/1HJR1H3ASf_thx_BCjg3hNT893oDRlO9H/edit?usp=sharing&ouid=108796879882614269772&rtpof=true&sd=true" target="_blank" className="nav-link">Whitepaper</a>
+                            <a href="/#faq-area" className="nav-link">Faq</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="/#team" className="nav-link">Team</a>
                         </li>
                     </ul>
                     {/* Navbar Toggler */}

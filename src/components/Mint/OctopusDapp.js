@@ -113,9 +113,9 @@ function OctopusDapp() {
       ID: 0,
     },
     NFT_NAME: "Octopus",
-    SYMBOL: "?",
+    SYMBOL: "",
     MAX_SUPPLY: 1,
-    WEI_COST: 0,
+    WEI_COST: 1,
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
     MARKETPLACE: "",
@@ -165,8 +165,8 @@ function OctopusDapp() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 5) {
+      newMintAmount = 5;
     }
     setMintAmount(newMintAmount);
   };
@@ -233,7 +233,7 @@ function OctopusDapp() {
             <s.TextTitle
               style={{ textAlign: "",color: "var(--primary-p-color)" }}
             >
-              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} eth 
+              <strong>price per token:</strong> {CONFIG.DISPLAY_COST} MATIC 
               {/* 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "} */}
               {/* {CONFIG.NETWORK.SYMBOL}. ? */}
             </s.TextTitle>

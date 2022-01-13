@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 const initData = {
-    pre_heading: "FAQ",
-    heading: "Frequently Asked Questions",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit."
+    pre_heading: "FAQ"
 }
 
 const data = [
@@ -11,46 +9,46 @@ const data = [
         id: "1",
         btnClass: "btn d-block text-left w-100 py-4",
         target: "#collapseOne",
-        quote: "What are the benefits of owning one??",
+        quote: "What are the benefits of owning one?",
         contentId: "collapseOne",
         contentClass: "collapse show",
-        content: "Each NFT hodler will be rewarded with the privilege of being included in the whitelist and participating in drops with additional NFTs never seen on the market and Token comunity. This reward will be given every month."
+        content: "The NFT holders will have several benefits, for instance anticipated sales, exclusive NFTs and soon they will also be rewarded with a community Token.  See the SafeArt Club page (link alla pagina) for more information."
     },
-    // {
-    //     id: "2",
-    //     btnClass: "btn d-block text-left w-100 collapsed py-4",
-    //     target: "#collapseTwo",
-    //     quote: "Where can I see transaction of wallet's comunity?",
-    //     contentId: "collapseTwo",
-    //     contentClass: "collapse",
-    //     content: "The comunity wallet transactions can be viewed at the following etherscan link: "
-    // },
+    {
+        id: "2",
+        btnClass: "btn d-block text-left w-100 collapsed py-4",
+        target: "#collapseTwo",
+        quote: "Why Polygon?",
+        contentId: "collapseTwo",
+        contentClass: "collapse",
+        content: "Ethereum gas fees are extremely volatile. The gas price sensibly increases when there is a high demand for resources on the Ethereum blockchain. Eventually upgrading to Ethereum 2.0 will massively reduce the transaction fees, making the network more usable. In the meantime, Polygon is a valid alternative to mint new NFTs, with lower fees and faster transaction speed."
+    },
     {
         id: "3",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseThree",
-        quote: "Is the art randomly generated",
+        quote: "Is the art randomly assigned?",
         contentId: "collapseThree",
         contentClass: "collapse",
-        content: "Each of our works is randomly generated, even for mint, the possibility of finding a rare piece is equal for everyone."
+        content: "The NFTs are randomly assigned. Everyone has the same probability of getting a rare piece."
     },
     {
         id: "4",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFour",
-        quote: "How can I mint this SafeArt!?",
+        quote: "How can I mint a NFT?",
         contentId: "collapseFour",
         contentClass: "collapse",
-        content: "Simply by owning a metamask wallet and connecting to our mint page, the smart contract will take care of the rest."
+        content: "You only need to own a metamask wallet and to connect to our mint page. The smart contract will take care of the rest."
     },
     {
         id: "5",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFive",
-        quote: "How much will it cost to mint?",
+        quote: "Will I become an artist owning one?",
         contentId: "collapseFive",
         contentClass: "collapse",
-        content: "It will cost 0.055 ETH + FEE."
+        content: "Absolutely yes ;)"
     }
 ]
 
@@ -67,14 +65,13 @@ class Faq extends Component {
     }
     render() {
         return (
-            <section className="faq-area pt-0">
+            <section className="faq-area pt-0" id="faq-area">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-12 col-md-8 col-lg-7">
+                        <div className="col-md-8 col-lg-12">
                             {/* Intro */}
-                            <div className="intro text-center">
+                            <div className="intro">
                                 <span>{this.state.initData.pre_heading}</span>
-                                <h1 className="mt-3 mb-0">{this.state.initData.heading} </h1>
                             </div>
                         </div>
                     </div>

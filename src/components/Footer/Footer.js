@@ -12,11 +12,11 @@ class Footer extends Component {
                     <div className="container d-flex justify-content-center">
                                     
                             <div className="social-icons d-flex py-4">
-                                <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
+                                <a key="1" className="Discord" href="https://discord.gg/a6857DZXRK"target="_blank">
                                     <i className="fab fa-discord" />
                                     <i className="fab fa-discord" />
                                 </a>
-                                <a key="2" className="Discord" href="https://twitter.com/Safee_Art"target="_blank">
+                                <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
                                 </a>
@@ -40,7 +40,7 @@ class Footer extends Component {
                                 {/* Copyright Area */}
                                 <div className="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
                                     {/* Copyright Left */}
-                                    <div className="copyright-left ">©2021 SafeArt, All Rights Reserved.</div>
+                                    <div className="copyright-left ">©2022 SafeArt, All Rights Reserved.</div>
                                 </div>
                             </div>
                         </div>

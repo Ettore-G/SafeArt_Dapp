@@ -20,7 +20,8 @@ class Hero extends Component {
                 <div className="container-fluid">
                     <div  id="home"className="row align-items-center xs-column-reverse mt-5">
                         <div className="col-12 col-md-12 col-xs-12 homepage-centro">
-                            <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1>
+                            <img src="/img/homepage.png" class="img-homepage mt-5"></img>
+                            {/* <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1> */}
                             {/* <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p> */}
 
@@ -29,7 +30,7 @@ class Hero extends Component {
                                 <ul className="navbar-nav action text-center">
                                     <li className="nav-item">
                                         <a className="btn btn-bordered-white" href="/octopusDapp">
-                                            Mint your NFT
+                                            Mint OCTOPUS
                                         </a>
                                         {/* <a className="btn btn-bordered-white" href="/mint-your-NFT">
                                             Buy on UniSwap
@@ -42,11 +43,11 @@ class Hero extends Component {
                                 
                             </div>
                             <div className="social-icons d-flex py-4 justify-content-center">
-                                <a key="1" className="Discord" href="https://discord.gg/RaXvVfFD"target="_blank">
+                                <a key="1" className="Discord" href="https://discord.gg/a6857DZXRK"target="_blank">
                                     <i className="fab fa-discord" />
                                     <i className="fab fa-discord" />
                                 </a>
-                                <a key="2" className="Discord" href="https://twitter.com/Safee_Art"target="_blank">
+                                <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
                                 </a>

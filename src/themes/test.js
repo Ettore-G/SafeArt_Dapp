@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import Home from '../components/Home/Home';
 import HowItWorks from '../components/HowItWorks/HowItWorks';
 import Collection from '../components/Explore/Carosel';
+import SafeArtClub from '../components/Club/safeartclub';
 import Faq from '../components/Work/Work';
 import Staff from'../components/Collections/Collections';
 import Footer from '../components/Footer/Footer';
@@ -18,6 +19,7 @@ class ThemeOne extends Component {
                 <Home />
                 <Collection />
                 <HowItWorks />
+                <SafeArtClub />
                 <Faq />
                 <Staff />
                 <Footer />

@@ -1,141 +1,22 @@
 /* lasciare qui vuoto */
 .octopus-1{
-    background-image: url('./img/Octopus/1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-}
-.octopus-2{
-    background-image: url('./img/Octopus/2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-}
-.octopus-3{
-    background-image: url('./img/Octopus/3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-}
-.octopus-4{
-    background-image: url('./img/Octopus/4.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-}
-.octopus-5{
-    background-image: url('./img/Octopus/5.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-}
-.octopus-6{
-    background-image: url('./img/Octopus/6.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
+    border-radius: 5px;
 }
 
 .octoprofile-1{
-    background-image: url('./img/Octopus/1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-    height: 140px;
-    width: 140px;
+  border-radius: 5px;
+  width: 175px;
 }
-.octoprofile-2{
-    background-image: url('./img/Octopus/2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-3{
-    background-image: url('./img/Octopus/3.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-4{
-    background-image: url('./img/Octopus/4.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-5{
-    background-image: url('./img/Octopus/5.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-6{
-    background-image: url('./img/Octopus/6.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-7{
-    background-image: url('./img/Octopus/7.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-  height: 140px;
-  width: 140px;
-}
-.octoprofile-8{
-    background-image: url('./img/Octopus/8.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 300px;
-    max-width: 300px;
-    border-radius: 6px;
-    height: 140px;
-    width: 140px;
-}
+@media (max-width: 767px) {
+  .octoprofile-1{
+    border-radius: 5px;
+    width: 250px;
+  }
+  }
+
 .line{
   border: 1px solid #F4C70A;
   width: 1150px;
@@ -151,3 +32,17 @@
 
     }
   }
+
+  .dapp-octopus1{
+    margin-top: 30px;
+  }
+
+@media (max-width: 767px) {
+  .dapp-octopus{
+      margin-top: 20px;
+    }
+  }
+
+.img-homepage{
+  width: 500px;  
+}
