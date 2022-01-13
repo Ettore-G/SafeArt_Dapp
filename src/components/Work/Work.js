@@ -16,15 +16,15 @@ const data = [
         contentClass: "collapse show",
         content: "Each NFT hodler will be rewarded with the privilege of being included in the whitelist and participating in drops with additional NFTs never seen on the market and Token comunity. This reward will be given every month."
     },
-    {
-        id: "2",
-        btnClass: "btn d-block text-left w-100 collapsed py-4",
-        target: "#collapseTwo",
-        quote: "Where can I see transaction of wallet's comunity?",
-        contentId: "collapseTwo",
-        contentClass: "collapse",
-        content: "The comunity wallet transactions can be viewed at the following etherscan link: "
-    },
+    // {
+    //     id: "2",
+    //     btnClass: "btn d-block text-left w-100 collapsed py-4",
+    //     target: "#collapseTwo",
+    //     quote: "Where can I see transaction of wallet's comunity?",
+    //     contentId: "collapseTwo",
+    //     contentClass: "collapse",
+    //     content: "The comunity wallet transactions can be viewed at the following etherscan link: "
+    // },
     {
         id: "3",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
