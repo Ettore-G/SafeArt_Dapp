@@ -23,6 +23,7 @@ const Header = () => {
                             <a className="nav-link">NFT <i className="fas fa-angle-down ml-1" /></a>
                             <ul className="dropdown-menu">
                                 <li className="nav-item"><a href="/octopusDapp" className="nav-link">Octopus</a></li>
+                                <li className="nav-item"><a href="/leo3dDapp" className="nav-link">Leo 3D</a></li>
                             </ul>
                         </li>
                         {/* <li className="nav-item">
