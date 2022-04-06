@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const initData = {
-    itemImg: "/img/Leo3d/leo6.png",
+    itemImg: "/img/Leo3d/leo446-removebg-preview.png",
     date: "2022-03-30",
     tab_1: "Description",
     tab_2: "Properties",

@@ -29,8 +29,8 @@ class Hero extends Component {
                                 {/* <WalletCard /> */}
                                 <ul className="navbar-nav action text-center">
                                     <li className="nav-item">
-                                        <a className="btn btn-bordered-white" href="/octopusDapp">
-                                            Mint OCTOPUS
+                                        <a className="btn btn-bordered-white" href="/leo3dDapp">
+                                            Mint Leo 3D
                                         </a>
                                         {/* <a className="btn btn-bordered-white" href="/mint-your-NFT">
                                             Buy on UniSwap
