@@ -11,7 +11,7 @@ class Activity extends Component {
             <div className="container">
                 <div className="row">
                   <div className="col-md-12 text-center ">
-                    <h1 className="color-primary">MINT COMING SOON ;)</h1>
+                    <h1 className="color-primary"><a href="https://opensea.io/collection/fluid-octopus" target="__blank">CLICK AND BUY ON OPENSEA ;)</a></h1>
                   </div>
               </div>
             </div>
