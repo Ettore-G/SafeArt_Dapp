@@ -1961,7 +1961,9 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .hero-section h1 {
-  color: var(--white-color);
+  color: var(--primary-color);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
 }
 
 .hero-section p {
@@ -3584,7 +3586,9 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .custom-text-height {
+  color: var(--primary-color);
   font-size: 100px;
+  text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
 }
 .custom-text-height-p {
   font-size: 900px;

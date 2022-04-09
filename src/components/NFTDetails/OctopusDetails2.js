@@ -25,7 +25,7 @@ class ItemDetails extends Component {
                         <div className="col-md-4 col-xs-12 dapp-octopus1">
                             {/* Content */}
                             <div className="content">
-                                <img src={this.state.initData.itemImg1} alt="" />
+                                <img src={this.state.initData.itemImg1} alt="octopus safeart" />
                             </div>
                         </div>
 
@@ -40,7 +40,7 @@ class ItemDetails extends Component {
                         <div className="col-md-4 col-xs-12 dapp-octopus1 dapp-octopus">
                             {/* Content */}
                             <div className="content">
-                                <img src={this.state.initData.itemImg} alt="" />
+                                <img src={this.state.initData.itemImg} alt="octopus safeart" />
                             </div>
                         </div>
                     </div>

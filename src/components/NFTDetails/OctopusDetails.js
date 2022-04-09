@@ -32,7 +32,7 @@ class ItemDetails extends Component {
                         <div className="col-md-5 col-xs-12">
                             <div className="item-info">
                                 <div className="item-thumb text-center mt-5">
-                                    <img src={this.state.initData.itemImg} alt="" />
+                                    <img src={this.state.initData.itemImg} alt="safeart octopus" />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ class ItemDetails extends Component {
                                 <div className="owner d-flex align-items-center">
                                     <span>Owned By</span>
                                     <a className="owner-meta d-flex align-items-center ml-3">
-                                        <img className="avatar-sm rounded-circle" src={this.state.initData.ownerImg} alt="" />
+                                        <img className="avatar-sm rounded-circle" src={this.state.initData.ownerImg} alt="safeart" />
                                         <h6 className="ml-2">{this.state.initData.itemOwner}</h6>
                                     </a>
                                 </div>

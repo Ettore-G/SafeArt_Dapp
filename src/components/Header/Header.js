@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="container header">
                     {/* Navbar Brand*/}
                     <Link className="navbar-brand" to="/">
-                        <img className="navbar-brand-sticky" src="/img/pp-removebg-preview.png" alt="sticky brand-logo" />
+                        <img className="navbar-brand-sticky" src="/img/pp-removebg-preview.png" alt="safeart logo" />
                     </Link>
                     <div className="ml-auto"/>
                     {/* Navbar */}

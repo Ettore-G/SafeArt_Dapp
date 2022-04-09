@@ -20,8 +20,8 @@ class Hero extends Component {
                 <div className="container-fluid">
                     <div  id="home"className="row align-items-center xs-column-reverse mt-5">
                         <div className="col-12 col-md-12 col-xs-12 homepage-centro">
-                            <img src="/img/homepage.png" class="img-homepage mt-5"></img>
-                            {/* <h1 className="mt-5 custom-text-height">{this.state.data.heading}</h1> */}
+                            {/* <img src="/img/homepage.png" class="img-homepage mt-5" alt="safeart logo"></img> */}
+                            <h1 className="custom-text-height mt-5 ">{this.state.data.heading}</h1>
                             {/* <p className="custom-text-height-p">{this.state.data.content}</p>
                             <p>{this.state.data.description}</p> */}
 
@@ -50,14 +50,6 @@ class Hero extends Component {
                                 <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
-                                </a>
-                                <a key="3" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk"target="_blank">
-                                    <i className="fab fa-telegram" />
-                                    <i className="fab fa-telegram" />
-                                </a>
-                                <a key="4" className="Discord" href="https://www.reddit.com/r/SafeArt/" target="_blank">
-                                    <i className="fab fa-reddit-alien"></i>
-                                    <i className="fab fa-reddit-alien"></i>
                                 </a>
                             </div>
                         </div>

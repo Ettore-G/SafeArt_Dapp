@@ -13,13 +13,12 @@ class Collections extends Component {
             .then(res => {
                 this.setState({
                     data: [
-                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax"},
-                        {nome : "Roos", ruolo : "Co-Founder",ruolo1 : "Blockchain Dev", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/"},
-                        {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/"},
-                        {nome : "Edef", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "https://twitter.com/___edef___"},
-                        {nome : "Aysu", ruolo : "Dev", img: "./img/Octopus/nice4.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/aysu-celebi"},
+                        {nome : "BomberBax", ruolo : "Founder", img: "./img/Octopus/nice7.jpg", icon: "fab fa-twitter", link: "https://mobile.twitter.com/Altcoinbax", alt: "bomberbax founder safeart"},
+                        {nome : "Roos", ruolo : "Co-Founder",ruolo1 : "Blockchain Dev", img: "./img/Octopus/nice5.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/domenico-centrone-498aa11b9/", alt: "roos founder safeart"},
+                        {nome : "Ettore", ruolo : " Blockchain Dev", img: "./img/Octopus/nice1.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/ettore-gentile-6b2318154/", alt: "developer safeart"},
+                        {nome : "Edef", ruolo : "Dev", img: "./img/Octopus/nice2.jpg", icon: "fab fa-twitter", link: "https://twitter.com/___edef___", alt: "artist developer safeart"},
                         {nome : "Denise", ruolo : "Graphic Designer", img: "./img/Octopus/nice6.jpg", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/denise-pregnolato-462118186/"},
-                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice3.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo"},
+                        {nome : "Romina", ruolo : "Supporter", img: "./img/Octopus/nice3.jpg", icon: "fab fa-twitter", link: "https://twitter.com/RominaMinadeo", alt: "influencer safeart"},
                     ],
                     // collectionData: res.data.collectionData
                 })
@@ -48,7 +47,7 @@ class Collections extends Component {
                                 <div key={`cd_${idx}`} className="col-12 col-sm-6 col-lg-3 item">
                                     <div className="card no-r text-center staff-card">
                                         <div className="image-over pt-3">
-                                            <img class="octoprofile-1" src={item.img}   alt="" />
+                                            <img class="octoprofile-1" src={item.img}   alt={item.alt} />
                                         </div>
                                         {/* Card Caption */}
                                         <div className="card-caption col-12 p-0">

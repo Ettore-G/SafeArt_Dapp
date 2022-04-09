@@ -20,14 +20,6 @@ class Footer extends Component {
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
                                 </a>
-                                <a key="3" className="Discord" href="https://t.me/joinchat/EQoLdbAu0ThmYTVk"target="_blank">
-                                    <i className="fab fa-telegram" />
-                                    <i className="fab fa-telegram" />
-                                </a>
-                                <a key="4" className="Discord" href="https://www.reddit.com/r/SafeArt/" target="_blank">
-                                    <i className="fab fa-reddit-alien"></i>
-                                    <i className="fab fa-reddit-alien"></i>
-                                </a>
                             </div>
 
                     </div>
