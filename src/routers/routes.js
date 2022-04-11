@@ -22,7 +22,7 @@ class MyRouts extends React.Component {
             {/* <Route exact path="/safearttestdapp" component={Coming} /> */}
             {/* <Route exact path="/safearttest2dapp" component={Test2} /> */}
             <Route path="/octopusDapp" component={OcstopusDapp} />
-            <Route path="/leo3dDapp" component={Leo3dDapp} />
+            {/* <Route path="/leo3dDapp" component={Leo3dDapp} /> */}
             {/* <Route path="/safeartclub" component={SafeArtClub} /> */}
             {/* <Route path="/roadmap" component={Roadmap} /> */}
             <Route path="/404" component={NotFound} />
