@@ -10,7 +10,8 @@ const data = [
         id: "1",
         icon: "icon fab fa-discord text-effect color-primary",
         title: "Discord",
-        content: "Learn how to create an account, set up your wallet, and what you can do on NetStorm"
+        content: "Learn how to create an account, set up your wallet, and what you can do on NetStorm",
+        href: "https://discord.gg/a6857DZXRK"
     },
     {
         id: "2",
@@ -92,7 +93,7 @@ class SafeArtClub extends Component {
                                 <div key={`hd_${idx}`} className="col-md-4 item">
                                     {/* Help Card */}
                                     <div className="card help-card">
-                                        <a className="d-block text-center">
+                                        <a className="d-block text-center" href={item.href} target="__blank">
                                             <i className={item.icon} />
                                             <h4>{item.title}</h4>
                                             {/* <p>{item.content}</p> */}
