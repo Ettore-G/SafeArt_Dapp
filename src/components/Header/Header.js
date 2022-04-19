@@ -30,13 +30,20 @@ const Header = () => {
                             <Link to="/roadmap" className="nav-link">Roadmap</Link>
                         </li> */}
                         <li className="nav-item">
-                            <a href="/#safeclub" className="nav-link">SafeArt Club</a>
+                            <a href="/#safeclub" className="nav-link">Perks</a>
                         </li>
                         <li className="nav-item">
                             <a href="/#faq-area" className="nav-link">Faq</a>
                         </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link">Social<i className="fas fa-angle-down ml-1" /></a>
+                            <ul className="dropdown-menu">
+                                <li className="nav-item"><a href="https://discord.gg/a6857DZXRK" target="_blank" className="nav-link">Discord<i className="fab fa-discord" /></a></li>
+                                <li className="nav-item"><a href="https://twitter.com/SafeArt_io" target="_blank" className="nav-link">Twitter<i className="fab fa-twitter" /></a></li>
+                            </ul>
+                        </li>
                         <li className="nav-item">
-                            <a href="/#team" className="nav-link">Team</a>
+                            <a href="/workwithus" className="nav-link">Work with us</a>
                         </li>
                     </ul>
                     {/* Navbar Toggler */}
@@ -47,7 +54,6 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                
                 </div>
             </nav>
         </header>

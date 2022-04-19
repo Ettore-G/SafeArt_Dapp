@@ -29,9 +29,13 @@ class Hero extends Component {
                                 {/* <WalletCard /> */}
                                 <ul className="navbar-nav action text-center">
                                     <li className="nav-item">
-                                        <a className="btn btn-bordered-white">
-                                            Mint Leo 3D
-                                        </a>
+                                        <button className="button-74 mb-3" role="button">
+                                            Mint Leo 3D (SOON)
+                                        </button>    <br></br>
+                                        <button className="button-74 mb-3" role="button" href="https://discord.gg/a6857DZXRK"target="_blank">
+                                            Join in our discord
+                                        </button>
+                                        
                                         {/* href="/leo3dDapp" <a className="btn btn-bordered-white" href="/mint-your-NFT">
                                             Buy on UniSwap
                                         </a>
@@ -43,10 +47,6 @@ class Hero extends Component {
                                 
                             </div>
                             <div className="social-icons d-flex py-4 justify-content-center">
-                                <a key="1" className="Discord" href="https://discord.gg/a6857DZXRK"target="_blank">
-                                    <i className="fab fa-discord" />
-                                    <i className="fab fa-discord" />
-                                </a>
                                 <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
                                     <i className="fab fa-twitter" />
                                     <i className="fab fa-twitter" />
