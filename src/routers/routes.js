@@ -16,7 +16,7 @@ class MyRouts extends React.Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/octopusDapp" component={OcstopusDapp} />
-            <Route path="/workwithus" component={Work} />
+            {/* <Route path="/workwithus" component={Work} /> */}
             {/* <Route path="/leo3dDapp" component={Leo3dDapp} /> */}
             <Route path="/404" component={NotFound} />
             <Route component={NotFound} />

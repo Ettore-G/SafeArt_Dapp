@@ -35,21 +35,14 @@ class Hero extends Component {
                                         <button className="button-74 mb-3" role="button" href="https://discord.gg/a6857DZXRK"target="_blank">
                                             Join in our discord
                                         </button>
-                                        
-                                        {/* href="/leo3dDapp" <a className="btn btn-bordered-white" href="/mint-your-NFT">
-                                            Buy on UniSwap
-                                        </a>
-                                        <a className="btn btn-bordered-white" href="/mint-your-NFT">
-                                            Buy on Rubic
-                                        </a> */}
                                     </li>
                                 </ul>
                                 
                             </div>
                             <div className="social-icons d-flex py-4 justify-content-center">
-                                <a key="2" className="Discord" href="https://twitter.com/SafeArt_io"target="_blank">
-                                    <i className="fab fa-twitter" />
-                                    <i className="fab fa-twitter" />
+                                <a key="2" className="Discord" href="https://linktr.ee/safeart.io"target="_blank">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                <i class="fa fa-link" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>

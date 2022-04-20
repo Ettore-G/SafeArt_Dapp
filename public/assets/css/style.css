@@ -4411,7 +4411,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 
 /* CSS */
 .button-74 {
-  opacity: 0.6;
+  opacity: 1;
   background-image: linear-gradient( 150deg, var(--secondary-color) 0%, var(--primary-color) 78% );
   border: 2px solid #422800;
   border-radius: 30px;
@@ -4431,7 +4431,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .button-74:hover {
-  opacity: 1;
+  opacity: 0.6;
   transition: 1s;
 }
 
