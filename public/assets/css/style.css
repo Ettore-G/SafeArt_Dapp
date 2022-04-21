@@ -4384,7 +4384,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
 }
 
 .text-octopus{
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .text-roadmap{
@@ -4445,4 +4445,8 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
     min-width: 120px;
     padding: 0 25px;
   }
+}
+
+.leo3d{
+  max-width: 80%;
 }

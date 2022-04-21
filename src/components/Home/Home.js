@@ -31,7 +31,7 @@ class Hero extends Component {
                                     <li className="nav-item">
                                         <button className="button-74 mb-3" role="button">
                                             Mint Leo 3D (SOON)
-                                        </button>    <br></br>
+                                        </button>   <br></br>
                                         <button className="button-74 mb-3" role="button" href="https://discord.gg/a6857DZXRK"target="_blank">
                                             Join in our discord
                                         </button>
